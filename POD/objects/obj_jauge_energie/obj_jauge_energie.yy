@@ -1,0 +1,38 @@
+{
+    "id": "b6b4bc29-ba40-4647-ab47-ad2beb670e00",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_jauge_energie",
+    "eventList": [
+        {
+            "id": "62b7d4b0-9455-44e8-b831-3c3c2d3f5599",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "b6b4bc29-ba40-4647-ab47-ad2beb670e00"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "2ef6518f-f99e-49d7-94be-4b9735b65a4c",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": null,
+    "solid": false,
+    "spriteId": "078f3f59-ba7a-468f-adf7-1022e3da83e0",
+    "visible": true
+}

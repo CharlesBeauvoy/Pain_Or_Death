@@ -1,0 +1,166 @@
+{  
+   "INTRO":{
+	 "NB":1,
+	 "texte_1":"Tue les tous.",
+	 "FACE":"spr_avatar_narrateur_content"
+   },
+   "SCORE_10":{
+	 "NB":1,
+	 "texte_1":"Continue, continue !"
+   },
+   "SCORE_20":{
+	 "NB":1,
+	 "texte_1":"Encore bon sang, continue !",
+	 "FACE":"spr_avatar_narrateur_enerve"
+   },
+   "SCORE_30":{
+	 "NB":1,
+	 "texte_1":"Laaaaa c'est bien, continue !",
+	 "FACE":"spr_avatar_narrateur_content"
+   },
+   "SCORE_40":{
+	 "NB":1,
+	 "texte_1":"ENCORE, ENCORE !"
+   },
+   "GO_BASE":{
+	 "NB":1,
+	 "texte_1":"INCAPBLE, TU ES UN INCAPABLE !",
+	 "FACE":"spr_avatar_narrateur_enerve"
+   },
+   "COURS":{
+	 "NB":1,
+	 "texte_1":"COURS BORDEL, APPUYE SUR W !",
+	 "FACE":"spr_avatar_narrateur_enerve"
+   },
+   "VOILA":{
+	 "NB":1,
+	 "texte_1":"VOILA ! Exactement, au boulot maintenant ! Et ne t'avises plus de ralentir.",
+	 "FACE":"spr_avatar_narrateur_content"
+   },
+   "IMPATIENCE":{
+	 "NB":1,
+	 "texte_1":"POURQUOI TU ATTENDS ? Tu penses qu'on est venu pour discuter ?"
+   },
+   "GENOCIDE_1":{
+	 "NB":2,
+	 "texte_1":"Tu peux mieux faire.",
+	 "texte_2": "Ils sont revenus, tu sais ce qu'il te reste à faire."
+   },
+   "GENOCIDE_C_1":{
+	 "NB":1,
+	 "texte_1":"Je te laisse le bénéfice du doute, tu ne parles pas, tu tues.",
+	 "FACE":"spr_avatar_narrateur_content"
+   },
+   "GENOCIDE_2":{
+	 "NB":2,
+	 "texte_1":"ENCORE",
+	 "texte_2": "Ils n'arrêtent pas de revenir. FINIS TON TRAVAIL."
+   },
+   "GENOCIDE_C_2":{
+	 "NB":1,
+	 "texte_1":"Finis ce que tu es venu faire ici, on posera les questions plus tard."
+   },
+   "GENOCIDE_3":{
+	 "NB":2,
+	 "texte_1":"Nous. ne. sommes. pas. là. pour. discuter.",
+	 "texte_2": "Si tu échoues à oblitérer toutes formes de vies, tu seras puni. ENCORE."
+   },
+   "GENOCIDE_C_3":{
+	 "NB":1,
+	 "texte_1":"Tu ne veux pas être châtié n'est-ce pas ? ALORS RECOMMENCE.",
+	 "FACE":"spr_avatar_narrateur_enerve"
+   },
+   "GENOCIDE_4":{
+	 "NB":3,
+	 "texte_1":"Tu veux quoi? Qu'on s'installe autour d'une petite table.",
+	 "texte_2": "Tu veux qu'on se raconte nos vies ?",
+	 "texte_3": "Haaaaan, c'est si naïf. ENCORE."
+   },
+   "GENOCIDE_C_4":{
+	 "NB":1,
+	 "texte_1":"Personne ne se soucie de l'avis des minables, detruis moi tout ça."
+   },
+   "GENOCIDE_5":{
+	 "NB":3,
+	 "texte_1":"Tu t'obstines mais tu ne comprends pas.",
+	 "texte_2": "Ton obédience est pitoyable.",
+	 "texte_3": "Tant que ne comprendras pas tu recommenceras. ENCORE."
+   },
+   "GENOCIDE_C_5":{
+	 "NB":1,
+	 "texte_1":"Réfléchis bon sang, réfléchis. C'est insupportable."
+   },
+   "GENOCIDE_6":{
+	 "NB":2,
+	 "texte_1":"Bonjouuur Monsieur l'ennemi, vous allez bien ?",
+	 "texte_2": "NON, on ne parle pas, on nettoye ENCORE."
+   },
+   "GENOCIDE_C_6":{
+	 "NB":1,
+	 "texte_1":"Mais ils n'ont rien a raconté, ce sont des inférieurs. Ils doivent mourir."
+   },
+   "GENOCIDE_7":{
+	 "NB":1,
+	 "texte_1":"ENCORE ENCORE ENCORE ENCORE.",
+	 "FACE":"spr_avatar_narrateur_enerve"
+   },
+   "GENOCIDE_C_7":{
+	 "NB":1,
+	 "texte_1":"ENCORE ENCORE ENCORE ENCORE.",
+	 "FACE":"spr_avatar_narrateur_enerve"
+   },
+   "ECHEC_1":{
+	 "NB":2,
+	 "texte_1":"Tu es pitoyable. Tu ne reverras jamais notre maison, tu ne reverras jamais chez toi.",
+	 "texte_2":"Tu mériterais de rester ici. Tu n'es à peine bonne qu'à te battre."
+   },
+   "ECHEC_2":{
+	 "NB":1,
+	 "texte_1":"Si tu ne parviens même pas à réussir ça, je ne réponds plus du reste."
+   },
+   "ECHEC_3":{
+	 "NB":1,
+	 "texte_1":"Tu n'en es même pas encore à comprendre"
+   },
+   "ECHEC_4":{
+	 "NB":1,
+	 "texte_1":"C'est risible."
+   },
+   "ECHEC_5":{
+	 "NB":1,
+	 "texte_1":"Penses-tu pouvoir gâcher encore mon temps longtemps, en toute impunité?"
+   },
+   "ECHEC_6":{
+	 "NB":1,
+	 "texte_1":"Tes ancêtres seraient morts de honte."
+   },
+   "ECHEC_7":{
+	 "NB":1,
+	 "texte_1":"Quel amateur bon sang."
+   },
+   "DEBUT":{
+	 "NB":6,
+	 "texte_1":"Bon. on a pas fait ce trajet stellaire pour rien.",
+	 "texte_2":"Devant, des moins que rien, detruis moi tout ça.",
+	 "texte_3":"ON EST PAS VENU POUR DISCUTER !",
+	 "texte_4":"Au travail, tu te reposeras quand tu l'auras mérité",
+	 "texte_5":"Trève de blabla, AU MASSACRE JE TE DIS!",
+	 "texte_6":"Si tu veux retrouver ton foyer, tu vas devoir faire exactement ce que je te dis.",
+	 "texte_6":"Nous sommes là par ta faute, donc tu vas réparer tes torts, petite sotte.",
+	 "texte_6":"J'ai peine à croire que tu sois ma fille.",
+	 "FACE":"spr_avatar_narrateur_enerve"
+   },
+   "DEBUT_X":{
+	 "NB":1,
+	 "texte_1":"On recommence."
+   },
+   "FIN_PACIF":{
+	 "NB":1,
+	 "texte_1":"Merci de nous avoir rassemblés, vous vous être libéré du joug de votre maître, si vous n'avez nul part où aller vous pouvez rester avec nous. Ne dit-on pas que la maison est là où réside notre coeur ?"
+   },
+   "VERMINE":{
+	 "NB":1,
+	 "texte_1":"TU FERAS SELON MES ORDRES VERMINE.",
+	 "FACE":"spr_avatar_narrateur_content"
+   }
+}

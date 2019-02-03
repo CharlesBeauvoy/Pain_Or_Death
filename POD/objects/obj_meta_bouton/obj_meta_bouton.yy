@@ -1,0 +1,72 @@
+{
+    "id": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_meta_bouton",
+    "eventList": [
+        
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "1414e2a5-12e1-4402-ae9f-021ac27f4b51",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"\"",
+            "varName": "texte",
+            "varType": 2
+        },
+        {
+            "id": "98fa082b-2e3f-425d-8a34-3dc130549e20",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "fnt_debug_mode",
+            "varName": "font",
+            "varType": 4
+        },
+        {
+            "id": "94258f36-4449-4c4f-8c5e-d2e1266b44fe",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "c_white",
+            "varName": "color",
+            "varType": 4
+        }
+    ],
+    "solid": false,
+    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "visible": true
+}
