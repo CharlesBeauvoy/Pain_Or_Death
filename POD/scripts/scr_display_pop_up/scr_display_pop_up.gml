@@ -24,11 +24,12 @@ var pop_up_quit = instance_create_layer(posX+sprite_get_width(spr_panel_selectio
 var pop_up_name = instance_create_layer(pop_up_bg.x,pop_up_bg.y+50,layer_id,obj_pop_up_name_pnj);
 pop_up_name.texte = argument0.name;
 
-var pop_up_bio = instance_create_layer(pop_up_name.x,pop_up_name.y+100,layer_id,obj_pop_up_bio_pnj);
-pop_up_bio.texte = argument0.bio;
+//var pop_up_bio = instance_create_layer(pop_up_name.x,pop_up_name.y+100,layer_id,obj_pop_up_bio_pnj);
+//pop_up_bio.texte = argument0.bio;
 
 pop_up_name.depth -= 1;
-pop_up_bio.depth -= 1;
+//pop_up_bio.depth -= 1;
 pop_up_bandeau.depth -= 1;
 pop_up_quit.depth -= 2;
 
+scr_display_bloc_texte_bio(argument0.bio);
