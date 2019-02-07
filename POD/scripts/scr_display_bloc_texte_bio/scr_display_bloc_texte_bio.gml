@@ -45,6 +45,8 @@ for(var i=0; i< ds_list_size(liste_mot); i++)
 			bloc_mot.x = posX;
 			bloc_mot.y = posY + interlignage;
 			largeur += (bloc_mot.sprite_width + espacement);
+			bloc_mot.offset_x = obj_pop_up_bg.x - bloc_mot.x;
+			bloc_mot.offset_y = obj_pop_up_bg.y - bloc_mot.y;
 		}
 	}
 	
