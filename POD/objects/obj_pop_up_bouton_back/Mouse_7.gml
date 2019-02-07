@@ -1,0 +1,1 @@
+scr_hide_pop_up_hyperlink();

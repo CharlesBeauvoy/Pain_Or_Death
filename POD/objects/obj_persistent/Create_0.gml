@@ -1,3 +1,5 @@
+not_clickable = false;
+
 action_number = 0;
 
 pnj_selected = noone;
