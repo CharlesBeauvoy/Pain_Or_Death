@@ -1,2 +1,4 @@
 list_relation = ds_list_create();
-display_link = false;
+
+draw_pop_up_link = false;
+draw_relation_link = false;

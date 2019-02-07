@@ -83,7 +83,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "\"Timothetouan\"",
-            "varName": "bio",
+            "varName": "name",
             "varType": 2
         },
         {
@@ -97,7 +97,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "\"Je ne rends pas l'argent\"",
-            "varName": "info",
+            "varName": "bio",
             "varType": 2
         }
     ],

@@ -1,3 +1,4 @@
+if display_aa > 12 display_reset(8, true);
 full_screen = false;
 
 instruction_list = ds_list_create();

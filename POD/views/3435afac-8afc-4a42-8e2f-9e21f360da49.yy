@@ -8,7 +8,7 @@
         "4f4df8e5-2d08-4908-82dc-e75d306d2fb6"
     ],
     "filterType": "GMScript",
-    "folderName": "scr_panel_selection",
+    "folderName": "scr_pop_up",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
