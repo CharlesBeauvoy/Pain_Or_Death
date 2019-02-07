@@ -11,7 +11,4 @@ if following_mouse
 	
 	obj_pop_up_name_pnj.x = x;
 	obj_pop_up_name_pnj.y = y + 50;
-	
-	obj_pop_up_bio_pnj.x = x;
-	obj_pop_up_bio_pnj.y = obj_pop_up_name_pnj.y + 100;
 }

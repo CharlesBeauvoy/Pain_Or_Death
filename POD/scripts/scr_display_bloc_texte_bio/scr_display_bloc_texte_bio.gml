@@ -47,4 +47,7 @@ for(var i=0; i< ds_list_size(liste_mot); i++)
 			largeur += (bloc_mot.sprite_width + espacement);
 		}
 	}
+	
+	if ds_list_find_index(obj_persistent.listing_name_pnj,bloc_mot.texte) != -1
+		bloc_mot.hyperlink = true;
 }
