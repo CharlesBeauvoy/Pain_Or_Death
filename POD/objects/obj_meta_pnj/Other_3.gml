@@ -1,1 +1,2 @@
 ds_list_destroy(list_relation);
+ds_list_destroy(list_relation_weigth);

@@ -2,7 +2,7 @@
     "id": "b6b4bc29-ba40-4647-ab47-ad2beb670e00",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_jauge_energie",
+    "name": "obj_jauge_sang",
     "eventList": [
         {
             "id": "62b7d4b0-9455-44e8-b831-3c3c2d3f5599",
@@ -16,7 +16,16 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "89f2acdb-e1a7-4c2e-84f5-14526ced0560",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "2ef6518f-f99e-49d7-94be-4b9735b65a4c",
+            "propertyId": "b78eec08-a070-46e8-add6-2c367199fd54",
+            "value": "\"Sang\""
+        }
+    ],
     "parentObjectId": "2ef6518f-f99e-49d7-94be-4b9735b65a4c",
     "persistent": false,
     "physicsAngularDamping": 0.1,

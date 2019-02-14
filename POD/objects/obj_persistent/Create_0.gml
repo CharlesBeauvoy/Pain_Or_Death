@@ -1,3 +1,5 @@
+randomize();
+
 not_clickable = false;
 
 action_number = 0;

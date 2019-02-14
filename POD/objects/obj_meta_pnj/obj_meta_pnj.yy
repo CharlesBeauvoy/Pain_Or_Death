@@ -93,6 +93,16 @@
             "enumb": 1,
             "eventtype": 2,
             "m_owner": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e"
+        },
+        {
+            "id": "ce5f8bfc-1dd0-4e8f-9a9b-3d1019150954",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -139,6 +149,20 @@
             "value": "\"Je ne rends pas l'argent\"",
             "varName": "bio",
             "varType": 2
+        },
+        {
+            "id": "c483ac8b-63e7-4cbb-ab89-8b5b982787ea",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "gain_sang",
+            "varType": 0
         }
     ],
     "solid": false,
