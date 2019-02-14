@@ -1,2 +1,3 @@
 /// @description add sang
-obj_jauge_sang.value_current += 5;
+if instance_exists(obj_jauge_sang)
+	obj_jauge_sang.value_current += 5;
