@@ -7,7 +7,7 @@
         
     ],
     "filterType": "GMObject",
-    "folderName": "obj_pnj_femme",
+    "folderName": "obj_pnj_alpha",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

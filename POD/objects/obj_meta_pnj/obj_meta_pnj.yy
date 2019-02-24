@@ -163,6 +163,22 @@
             "value": "15",
             "varName": "gain_sang",
             "varType": 0
+        },
+        {
+            "id": "96bf4a86-081d-4723-8e95-3acae3cf105c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "\"Je ne rends pas l'argent\""
+            ],
+            "multiselect": true,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"Je ne rends pas l'argent\"",
+            "varName": "bio_list",
+            "varType": 6
         }
     ],
     "solid": false,

@@ -5,6 +5,7 @@ if hyperlink and !obj_persistent.not_clickable
 	if obj_persistent.pnj_hovered == noone
 	{
 		obj_persistent.pnj_hovered = scr_find_pnj_index(texte);
-		obj_persistent.pnj_hovered.alarm[0] = 1;
+		if obj_persistent.pnj_hovered != noone
+			obj_persistent.pnj_hovered.alarm[0] = 1;
 	}
 }

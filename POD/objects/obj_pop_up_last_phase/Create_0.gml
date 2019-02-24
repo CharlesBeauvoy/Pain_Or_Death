@@ -1,0 +1,1 @@
+pnj_hovered = noone;

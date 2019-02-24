@@ -12,8 +12,11 @@ if following_mouse
 	obj_pop_up_name_pnj.x = x;
 	obj_pop_up_name_pnj.y = y + 50;
 	
-	obj_bouton_kill_pnj.x = x;
-	obj_bouton_kill_pnj.y = y + obj_pop_up_bg.sprite_height + 50;
+	if instance_exists(obj_bouton_kill_pnj)
+	{
+		obj_bouton_kill_pnj.x = x;
+		obj_bouton_kill_pnj.y = y + obj_pop_up_bg.sprite_height + 50;
+	}
 	
 	with obj_meta_bloc_text_bio
 	{

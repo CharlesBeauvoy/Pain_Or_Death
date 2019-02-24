@@ -24,12 +24,19 @@ var pop_up_quit = instance_create_layer(posX+sprite_get_width(spr_panel_selectio
 var pop_up_name = instance_create_layer(pop_up_bg.x,pop_up_bg.y+50,layer_id,obj_pop_up_name_pnj);
 pop_up_name.texte = argument0.name;
 
-var pop_up_bouton_kill = instance_create_layer(pop_up_bg.x,pop_up_bg.y+pop_up_bg.sprite_height+50,layer_id,obj_bouton_kill_pnj);
-
+if instance_exists(obj_timing)
+{
+	var pop_up_bouton_kill = instance_create_layer(pop_up_bg.x,pop_up_bg.y+pop_up_bg.sprite_height+50,layer_id,obj_bouton_kill_pnj);
+	pop_up_bouton_kill.depth -= 1;
+}
 pop_up_name.depth -= 1;
 pop_up_bandeau.depth -= 1;
-pop_up_bouton_kill.depth -= 1;
 pop_up_quit.depth -= 2;
 
-
 scr_display_bloc_texte_bio(argument0.bio);
+
+with obj_meta_pnj
+{
+	if self.object_index != obj_persistent.pnj_selected.object_index
+		self.depth = obj_persistent.pnj_selected.depth +10;
+}
