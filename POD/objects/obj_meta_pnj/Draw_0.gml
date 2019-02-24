@@ -36,7 +36,13 @@ if draw_pop_up_link
 	draw_set_color(c_red);
 	draw_line_width(x,y,obj_pop_up_bg.x,obj_pop_up_bg.y,5);
 }
-if visited
+if visited or known
 	scr_draw_center_object(fnt_debug_mode,c_white,name);
+if visited
+{
+	if self != obj_persistent.pnj_selected
+	{
+	}
+}
 if marked
 	scr_draw_center_object(fnt_marked,c_red,"X");

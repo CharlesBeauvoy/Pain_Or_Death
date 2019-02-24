@@ -11,3 +11,5 @@ for(var i=0; i<ds_list_size(list_relation);i++)
 if self == obj_persistent.pnj_selected
 	scr_hide_pop_up();
 ds_list_destroy(list_relation);
+ds_list_destroy(list_relation_sup);
+ds_list_destroy(list_relation_secret);

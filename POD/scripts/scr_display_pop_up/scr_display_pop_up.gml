@@ -34,9 +34,3 @@ pop_up_bandeau.depth -= 1;
 pop_up_quit.depth -= 2;
 
 scr_display_bloc_texte_bio(argument0.bio);
-
-with obj_meta_pnj
-{
-	if self.object_index != obj_persistent.pnj_selected.object_index
-		self.depth = obj_persistent.pnj_selected.depth +10;
-}
