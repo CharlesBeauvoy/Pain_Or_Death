@@ -22,5 +22,6 @@ else
 			scr_hide_pop_up();
 		rdm_obj.alarm[2] = 1;
 	}
+	instance_destroy(obj_pop_up_lp_done);
 	instance_destroy(self);
 }
