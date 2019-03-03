@@ -20,6 +20,4 @@ if !instance_exists(obj_timing) and !obj_persistent.not_clickable and !instance_
 	}
 }
 else if instance_exists(obj_timing)
-{
-	marked = true;
-}
+	marked = !marked;
