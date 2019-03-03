@@ -1,13 +1,4 @@
-//scr_hide_pop_up();
-/*
-instance_destroy(obj_pop_up_bg);
-instance_destroy(obj_pop_up_name_pnj);
-instance_destroy(obj_pop_up_bio_pnj);
-instance_destroy(obj_pop_up_display);
-instance_destroy(obj_meta_bloc_text_bio);
-instance_destroy(obj_bouton_kill_pnj);
-instance_destroy(obj_bouton_link_sup);
-instance_destroy(obj_bouton_link_secret);*/
+scr_hide_pop_up();
 
 var layer_id = layer_get_id("Instances_UI_above");
 instance_create_layer(0,0,layer_id,obj_fond_noir);
