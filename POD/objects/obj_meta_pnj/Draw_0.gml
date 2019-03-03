@@ -31,11 +31,6 @@ if draw_relation_link
 		}
 	}
 }
-if draw_pop_up_link
-{
-	draw_set_color(c_red);
-	draw_line_width(x,y,obj_pop_up_bg.x,obj_pop_up_bg.y,5);
-}
 if visited or known
 	scr_draw_center_object(fnt_debug_mode,c_white,name);
 if visited

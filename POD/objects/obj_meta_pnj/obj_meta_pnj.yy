@@ -137,20 +137,6 @@
             "varType": 2
         },
         {
-            "id": "a947b6b4-7975-40bd-bf92-d80a552f1a0f",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "\"Je ne rends pas l'argent\"",
-            "varName": "bio",
-            "varType": 2
-        },
-        {
             "id": "c483ac8b-63e7-4cbb-ab89-8b5b982787ea",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -163,22 +149,6 @@
             "value": "15",
             "varName": "gain_sang",
             "varType": 0
-        },
-        {
-            "id": "96bf4a86-081d-4723-8e95-3acae3cf105c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": [
-                "\"Je ne rends pas l'argent\""
-            ],
-            "multiselect": true,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "\"Je ne rends pas l'argent\"",
-            "varName": "bio_list",
-            "varType": 6
         }
     ],
     "solid": false,

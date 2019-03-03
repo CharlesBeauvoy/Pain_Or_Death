@@ -36,6 +36,5 @@ else if (posDX < posSX and posDY >= posSY)
 	posDX -= argument0.sprite_width/2;
 	posDY -= argument0.sprite_height/2;
 }
-
 draw_line_width(posSX,posSY,posDX,posDY,argument1);
 draw_arrow(posSX,posSY,posDX,posDY,40);

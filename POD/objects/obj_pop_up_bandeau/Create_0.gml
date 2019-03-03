@@ -1,1 +1,0 @@
-following_mouse = false;

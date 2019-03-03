@@ -5,8 +5,7 @@
     "name": "8f9eb649-6cc2-494d-8d6e-26953dad9589",
     "children": [
         "188f268b-798e-4159-9841-73a662c8d84b",
-        "638def2b-adad-4a0e-8a77-aed2c8ec0fc4",
-        "66cae5ad-2359-45fa-97b1-339ec81579b5"
+        "638def2b-adad-4a0e-8a77-aed2c8ec0fc4"
     ],
     "filterType": "GMScript",
     "folderName": "scr_jauge_sang",

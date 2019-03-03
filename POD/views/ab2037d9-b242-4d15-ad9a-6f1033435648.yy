@@ -8,7 +8,9 @@
         "666b31d4-438f-46bb-9921-d0481a837040",
         "9171023f-dbdf-421c-a497-779ffbbbfd62",
         "b045555c-462c-4e0e-8cb2-772fe33846df",
-        "31ae680c-950f-4624-a906-fe95b7a0d3e2"
+        "ac58d23a-e6f0-4bd1-bd44-9dc80dc6de99",
+        "c0f6a0b7-25b0-4eec-b0f6-6b98d81f7b11",
+        "ae063d2d-3316-4aed-bd49-bed95b86ad53"
     ],
     "filterType": "GMObject",
     "folderName": "obj_pop_up_pnj",

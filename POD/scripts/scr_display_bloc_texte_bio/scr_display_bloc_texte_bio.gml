@@ -19,10 +19,10 @@ for(var i=1; i<string_length(str)+1; i++)
 
 var posX = obj_pop_up_bg.x -obj_pop_up_bg.sprite_width/2 + 20;
 var posY = obj_pop_up_name_pnj.y + 50;
-var layer_id = layer_get_id("Instances_selection_pnj");
+var layer_id = layer_get_id("Instances_panel_droit");
 
 var espacement = 10;
-var interlignage = 0;
+var interlignage = obj_persistent.pnj_selected.bio_height;
 
 var largeur = 0;
 draw_set_font(fnt_pop_up_bio);
@@ -49,7 +49,9 @@ for(var i=0; i< ds_list_size(liste_mot); i++)
 			bloc_mot.offset_y = obj_pop_up_bg.y - bloc_mot.y;
 		}
 	}
-	
 	if ds_list_find_index(obj_persistent.listing_name_pnj,bloc_mot.texte) != -1
 		bloc_mot.hyperlink = true;
 }
+if interlignage <= 0
+	interlignage += 40;
+obj_persistent.pnj_selected.bio_height += interlignage;
