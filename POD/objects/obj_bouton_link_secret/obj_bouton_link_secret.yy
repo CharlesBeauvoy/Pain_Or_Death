@@ -23,7 +23,7 @@
             "mvc": "1.0",
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
             "propertyId": "1414e2a5-12e1-4402-ae9f-021ac27f4b51",
-            "value": "\"Lien secret : 10 jours\""
+            "value": "\"Lien secret : 28 jours\""
         }
     ],
     "parentObjectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",

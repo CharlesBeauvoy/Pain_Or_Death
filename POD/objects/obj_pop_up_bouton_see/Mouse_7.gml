@@ -1,4 +1,6 @@
 obj_persistent.not_clickable = false;
+if instance_exists(obj_persistent.pnj_selected) and obj_persistent.pnj_selected.visited
+	obj_persistent.pnj_selected.sprite_index = spr_pnj_unlocked;
 with obj_pop_up_hyperlink.pnj_hovered
 {
 	visited = true;
@@ -12,3 +14,4 @@ for(var i=0;i<ds_list_size(obj_pop_up_hyperlink.pnj_hovered.list_relation);i++)
 	tmp.known = true;
 }
 scr_hide_pop_up_hyperlink();
+obj_persistent.pnj_selected.sprite_index = spr_pnj_selected;

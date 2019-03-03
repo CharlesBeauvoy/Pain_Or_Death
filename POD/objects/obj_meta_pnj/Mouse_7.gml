@@ -7,11 +7,17 @@ if !instance_exists(obj_timing) and !obj_persistent.not_clickable and !instance_
 	}
 	else if visited
 	{
-		//visited = true;
+		if instance_exists(obj_persistent.pnj_selected)
+		{
+			if obj_persistent.pnj_selected.visited
+				obj_persistent.pnj_selected.sprite_index = spr_pnj_unlocked;
+			else 
+				obj_persistent.pnj_selected.sprite_index = spr_pnj_unknown;
+		}
 		scr_hide_pop_up();
 		scr_display_pop_up(self);
+		sprite_index = spr_pnj_selected;
 	}
-	sprite_index = spr_pnj_selected;
 }
 else if instance_exists(obj_timing)
 {
