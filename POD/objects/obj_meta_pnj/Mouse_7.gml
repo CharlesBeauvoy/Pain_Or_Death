@@ -11,7 +11,6 @@ if !instance_exists(obj_timing) and !obj_persistent.not_clickable and !instance_
 		{
 			scr_hide_pop_up();
 			scr_display_pop_up(self,false);
-			draw_relation_link = false;
 		}
 	}
 	else if visited

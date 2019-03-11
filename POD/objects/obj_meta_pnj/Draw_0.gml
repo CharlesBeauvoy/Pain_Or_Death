@@ -1,17 +1,20 @@
 draw_self();
 if draw_relation_link
 {
-	var line_width;
-	draw_set_color(c_white); //on dessine les fleches qui partent de self
-	for(var i=0; i< ds_list_size(list_relation);i++)
+	if visited
 	{
-		var tmp = ds_list_find_value(list_relation,i);
-		if instance_exists(tmp)
+		var line_width;
+		draw_set_color(c_white); //on dessine les fleches qui partent de self
+		for(var i=0; i< ds_list_size(list_relation);i++)
 		{
-			line_width = 5 + ds_list_find_value(list_relation_weigth,i);
-			if tmp == obj_persistent.pnj_hovered
-				line_width *= 2;
-			scr_draw_arrow(tmp,line_width,self);
+			var tmp = ds_list_find_value(list_relation,i);
+			if instance_exists(tmp)
+			{
+				line_width = 5 + ds_list_find_value(list_relation_weigth,i);
+				if tmp == obj_persistent.pnj_hovered
+					line_width *= 2;
+				scr_draw_arrow(tmp,line_width,self);
+			}
 		}
 	}
 	draw_set_color(c_orange); //on dessine les fleches qui arrive à self
