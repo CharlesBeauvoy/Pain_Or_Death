@@ -8,6 +8,7 @@ if instance_exists(obj_persistent.pnj_selected)
 instance_destroy(obj_pop_up_bg);
 instance_destroy(obj_pop_up_name_pnj);
 instance_destroy(obj_pop_up_bio_pnj);
+instance_destroy(obj_pop_up_bouton_see);
 //instance_destroy(obj_pop_up_display);
 if instance_exists(obj_pop_up_display)
 {
