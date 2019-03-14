@@ -2,16 +2,8 @@ if !instance_exists(obj_timing) and !obj_persistent.not_clickable and !instance_
 {
 	if visited == false and !instance_exists(obj_timing)
 	{
-		if !known
-		{
-			scr_display_pop_up_hyperlink();
-			obj_pop_up_hyperlink.pnj_hovered = self.object_index;
-		}
-		else
-		{
-			scr_hide_pop_up();
-			scr_display_pop_up(self,false);
-		}
+		scr_hide_pop_up();
+		scr_display_pop_up(self,false);
 	}
 	else if visited
 	{

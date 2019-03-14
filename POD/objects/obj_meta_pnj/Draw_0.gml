@@ -31,6 +31,6 @@ if draw_relation_link
 }
 
 if visited or known
-	scr_draw_center_object(fnt_debug_mode,c_white,name);
+	scr_draw_center_object(fnt_debug_mode,c_white,name,image_xscale,image_yscale,0);
 if marked
-	scr_draw_center_object(fnt_marked,c_red,"X");
+	scr_draw_center_object(fnt_marked,c_red,"X",1,1,0);

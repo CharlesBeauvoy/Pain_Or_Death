@@ -1,1 +1,1 @@
-scr_draw_center_object(fnt_debug_mode,c_black,texte);
+scr_draw_center_object(fnt_debug_mode,c_black,texte,1,1,0);

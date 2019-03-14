@@ -21,6 +21,8 @@ pop_up_quit.depth -= 2;
 
 if argument1 == true
 {
+	var bouton_pd_etiquette = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,pop_up_bg.y+150,layer_id,obj_bouton_pd_etiquette);
+	
 	if ds_stack_size(argument0.list_relation_sup)
 	{
 		var bouton_sup = instance_create_layer(pop_up_bg.x,pop_up_bg.y+700,layer_id,obj_bouton_link_sup);

@@ -26,12 +26,12 @@
             "value": "\"Denver\""
         },
         {
-            "id": "1f9b740b-e5fa-44e7-829e-930eee4d8d8b",
+            "id": "ee2ddada-6e6c-4d8a-b253-be7d6e697aa5",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",
-            "propertyId": "a947b6b4-7975-40bd-bf92-d80a552f1a0f",
-            "value": "\"Son père est Moscou et sa go est Monica\""
+            "propertyId": "fc6d3732-adce-4989-822c-bc90cec258a9",
+            "value": "obj_signe_verseau"
         }
     ],
     "parentObjectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",

@@ -19,3 +19,5 @@ instance_destroy(obj_meta_bloc_text_bio);
 instance_destroy(obj_bouton_kill_pnj);
 instance_destroy(obj_bouton_link_sup);
 instance_destroy(obj_bouton_link_secret);
+
+instance_destroy(obj_bouton_pd_etiquette);

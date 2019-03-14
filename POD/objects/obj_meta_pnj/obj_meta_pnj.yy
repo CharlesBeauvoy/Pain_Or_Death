@@ -149,6 +149,20 @@
             "value": "15",
             "varName": "gain_sang",
             "varType": 0
+        },
+        {
+            "id": "fc6d3732-adce-4989-822c-bc90cec258a9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_signe_belier",
+            "varName": "signe",
+            "varType": 5
         }
     ],
     "solid": false,

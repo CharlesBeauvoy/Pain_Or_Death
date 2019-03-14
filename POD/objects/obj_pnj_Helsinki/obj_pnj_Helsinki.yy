@@ -26,12 +26,12 @@
             "value": "\"Helsinki\""
         },
         {
-            "id": "e94fcb55-668d-4546-a90c-2bf4187e7014",
+            "id": "2d9a2378-faa0-4b27-9fa6-7fd5e1e11f5b",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",
-            "propertyId": "a947b6b4-7975-40bd-bf92-d80a552f1a0f",
-            "value": "\"Oslo et Berlin et Arturo\""
+            "propertyId": "fc6d3732-adce-4989-822c-bc90cec258a9",
+            "value": "obj_signe_lion"
         }
     ],
     "parentObjectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",

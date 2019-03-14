@@ -12,6 +12,7 @@ else
 		{
 			is_a_pnj_marked = true;
 			tmp_obj.alarm[2] = 1;
+			instance_destroy(tmp_obj.signe);
 		}
 	}
 	if is_a_pnj_marked == false // si aucun pnj n'a ete selectionne
@@ -21,6 +22,7 @@ else
 		if obj_persistent.pnj_selected == rdm_obj.object_index
 			scr_hide_pop_up();
 		rdm_obj.alarm[2] = 1;
+		instance_destroy(rdm_obj.signe);
 	}
 	instance_destroy(obj_pop_up_lp_done);
 	instance_destroy(self);

@@ -26,12 +26,12 @@
             "value": "\"Moscou\""
         },
         {
-            "id": "8dac12cf-b298-4640-b815-9e1ac72ddb25",
+            "id": "1a09b595-c61c-472b-a248-abbb580b4ab8",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",
-            "propertyId": "a947b6b4-7975-40bd-bf92-d80a552f1a0f",
-            "value": "\"Denver\""
+            "propertyId": "fc6d3732-adce-4989-822c-bc90cec258a9",
+            "value": "obj_signe_capricorne"
         }
     ],
     "parentObjectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",

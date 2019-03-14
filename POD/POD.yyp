@@ -63,6 +63,22 @@
             }
         },
         {
+            "Key": "09025b9b-4149-41d3-acfc-3c9529c544f2",
+            "Value": {
+                "id": "28f7eeab-0567-4c55-a725-695674c30412",
+                "resourcePath": "objects\\obj_signe_gemeaux\\obj_signe_gemeaux.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0ad493d1-2de0-4117-bdc1-70c78c6c622c",
+            "Value": {
+                "id": "3f4394a9-8791-4d14-9f3c-091564f40d71",
+                "resourcePath": "views\\0ad493d1-2de0-4117-bdc1-70c78c6c622c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0c5d1e1d-0d46-4ccd-a2d8-83ce7d04c3a9",
             "Value": {
                 "id": "fd0e4f01-f547-40ea-981c-057df7752870",
@@ -76,6 +92,14 @@
                 "id": "91612d49-43e4-49f5-83e3-c27aa69a2279",
                 "resourcePath": "views\\0dd1b0dc-0854-4b47-97c8-afb88b7df19f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0e26605e-0260-43be-90e0-a900c790cfa7",
+            "Value": {
+                "id": "9579425c-8613-4624-a803-b270e9af0245",
+                "resourcePath": "sprites\\spr_signe_balance\\spr_signe_balance.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -247,11 +271,27 @@
             }
         },
         {
+            "Key": "34405013-6f78-43c2-a84a-feed0593dfcb",
+            "Value": {
+                "id": "d2e645a4-3d3e-4716-9be3-662877b4c6be",
+                "resourcePath": "objects\\obj_signe_sagittaire\\obj_signe_sagittaire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "36227536-26ae-47a7-958a-df35e9705ce9",
             "Value": {
                 "id": "122a9137-e578-410f-a54f-4042aef24247",
                 "resourcePath": "fonts\\fnt_marked\\fnt_marked.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "383e74e3-e2c4-4d2e-abe4-385b7788d05d",
+            "Value": {
+                "id": "aed9f666-2c84-48d9-b278-e90ae074bcb5",
+                "resourcePath": "sprites\\spr_signe_capricorne\\spr_signe_capricorne.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -268,6 +308,22 @@
                 "id": "050683bb-9b3f-4bc1-9f3b-9088f9349fff",
                 "resourcePath": "views\\399aebd8-7b44-417d-bdc2-d105bac8831e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3a4107fa-017a-45ad-8b27-db265d828039",
+            "Value": {
+                "id": "dd7a2063-5a99-4882-b63e-33669b2d2719",
+                "resourcePath": "views\\3a4107fa-017a-45ad-8b27-db265d828039.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3aa90bc7-7d2c-41bc-b589-53f4b70c30f0",
+            "Value": {
+                "id": "4c11127e-df87-466a-9dc7-a7c4cd45a512",
+                "resourcePath": "sprites\\spr_signe_verseau\\spr_signe_verseau.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,11 +351,27 @@
             }
         },
         {
+            "Key": "433ca7cc-ddb0-45df-9536-a51d9b04a2c3",
+            "Value": {
+                "id": "eb24c6f0-0951-4a64-97a6-2bca37ff118b",
+                "resourcePath": "sprites\\spr_signe_vierge\\spr_signe_vierge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43638614-d173-4e74-9e12-ea865f8a1536",
             "Value": {
                 "id": "dc373fa0-3b8a-482e-93aa-ef80c34380bc",
                 "resourcePath": "scripts\\scr_draw_arrow\\scr_draw_arrow.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "48123ce0-f137-4915-8f4f-cbf3b94b589d",
+            "Value": {
+                "id": "83caea21-0609-4008-9df6-c38dae208c9b",
+                "resourcePath": "objects\\obj_meta_signe_astro\\obj_meta_signe_astro.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -316,6 +388,14 @@
                 "id": "9dfcc03b-8de7-4371-9c2f-439528215434",
                 "resourcePath": "scripts\\scr_find_pnj_index\\scr_find_pnj_index.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4cd8f8d4-a34b-4b59-abda-26e8a7f8304b",
+            "Value": {
+                "id": "4221b873-3036-41c7-abdd-51099f58d6bc",
+                "resourcePath": "objects\\obj_signe_scorpion\\obj_signe_scorpion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -351,11 +431,43 @@
             }
         },
         {
+            "Key": "521f7221-0b37-408f-b0d7-e30f70dc04fd",
+            "Value": {
+                "id": "96136c31-124f-49f3-9ae8-9e076bac22ce",
+                "resourcePath": "objects\\obj_signe_vierge\\obj_signe_vierge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "523ab95e-4da7-4fe2-9b49-255c01cdafa5",
+            "Value": {
+                "id": "daf41975-5553-4176-8dd2-057dad5a0825",
+                "resourcePath": "sprites\\spr_signe_sagittaire\\spr_signe_sagittaire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "52ab38f8-8b90-40e5-b03a-14091514602e",
+            "Value": {
+                "id": "10eeddea-d239-49a9-8483-053829d714c7",
+                "resourcePath": "sprites\\spr_pop_in\\spr_pop_in.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "53d1751a-66ce-4ca0-a483-a685f0315592",
             "Value": {
                 "id": "fdc64e2e-d300-42cb-910f-ef57ac137f38",
                 "resourcePath": "scripts\\scr_display_pop_up_lp\\scr_display_pop_up_lp.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "53e1834c-ee17-49a3-a1c1-c6e29de62ddd",
+            "Value": {
+                "id": "d6318df7-63d0-4e48-b6da-6709398b7a5e",
+                "resourcePath": "objects\\obj_signe_balance\\obj_signe_balance.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -372,6 +484,14 @@
                 "id": "da5a88a0-ab86-4f9a-bc80-79b05aca6eeb",
                 "resourcePath": "objects\\obj_pnj_Arturo\\obj_pnj_Arturo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "59a0d406-4321-4583-9f88-893c98fb41e0",
+            "Value": {
+                "id": "8bb021f7-b42e-42ca-8f5c-c6a99018f0d4",
+                "resourcePath": "sprites\\spr_signe_taureau\\spr_signe_taureau.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -412,6 +532,22 @@
                 "id": "807fe270-d998-4e56-be57-7ab1fccdffcf",
                 "resourcePath": "views\\5cabd36e-c482-48a9-911d-7dcd3d988f68.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "613cb7f4-243a-4085-a54e-d7505875f7a8",
+            "Value": {
+                "id": "0552e905-1025-41cf-8c1b-eadb54791cfc",
+                "resourcePath": "objects\\obj_signe_taureau\\obj_signe_taureau.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6142f028-2054-40d0-814b-391aaa67700f",
+            "Value": {
+                "id": "0f28aef3-d95a-40ca-a14d-30c4f9d6f410",
+                "resourcePath": "objects\\obj_signe_cancer\\obj_signe_cancer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -487,10 +623,34 @@
             }
         },
         {
+            "Key": "6b504791-6e8b-4822-a20a-301489495f56",
+            "Value": {
+                "id": "726940dd-1292-421e-ad20-fbcd27912b30",
+                "resourcePath": "objects\\obj_bouton_pd_etiquette\\obj_bouton_pd_etiquette.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6be4ba5a-cc77-4438-b3b6-fcaf529ebf1a",
+            "Value": {
+                "id": "e75a5fef-aae4-411c-9b58-628811490238",
+                "resourcePath": "sprites\\spr_signe_cancer\\spr_signe_cancer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6dd65187-13ec-4eb2-aefd-71404a6034ec",
             "Value": {
                 "id": "f4bc6dce-7085-4e5b-b0c0-592218c9bd86",
                 "resourcePath": "sprites\\spr_month\\spr_month.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71578f4a-6b51-4e2c-b351-ff464ef19c8f",
+            "Value": {
+                "id": "e2c22a66-5254-41b3-a136-b1f0e121b960",
+                "resourcePath": "sprites\\spr_signe_scorpions\\spr_signe_scorpions.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -532,6 +692,14 @@
                 "id": "d1f022de-3b72-4015-a4f5-7a06204827f7",
                 "resourcePath": "views\\821aea93-5735-4159-9704-9594e0c57c4e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "83239ba2-b617-410f-b0fd-35b6de83827b",
+            "Value": {
+                "id": "68cd4d58-10da-4682-a21f-c18c69da3908",
+                "resourcePath": "sprites\\spr_signe_belier\\spr_signe_belier.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -623,11 +791,27 @@
             }
         },
         {
+            "Key": "943a1599-00ae-4d7c-ac11-5afb7e437ec1",
+            "Value": {
+                "id": "dc7c4758-efe8-4910-a43e-1957f11509c7",
+                "resourcePath": "views\\943a1599-00ae-4d7c-ac11-5afb7e437ec1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "98828faa-72cf-4ca1-8ecd-2ff98b4bfd7c",
             "Value": {
                 "id": "8f862640-6be8-4001-ab20-6a32bf6b75eb",
                 "resourcePath": "views\\98828faa-72cf-4ca1-8ecd-2ff98b4bfd7c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98a48fc1-019a-4f3d-8806-299de88a0d68",
+            "Value": {
+                "id": "f33e479a-d618-4733-920d-22e0389083fc",
+                "resourcePath": "fonts\\fnt_pop_in\\fnt_pop_in.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -644,6 +828,14 @@
                 "id": "c04f8f02-2e68-4508-b1dd-302423014c13",
                 "resourcePath": "scripts\\scr_hide_pop_up_lp\\scr_hide_pop_up_lp.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9c17173e-bc17-4feb-b50d-30d4a8036ede",
+            "Value": {
+                "id": "e5bf33e6-4e06-4ea5-b0cb-3244822c6d04",
+                "resourcePath": "sprites\\spr_bouton_panel_droit\\spr_bouton_panel_droit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -676,6 +868,14 @@
                 "id": "ecccb8bc-5b4d-4fd2-8bb9-930f5495f29d",
                 "resourcePath": "fonts\\fnt_debug_mode\\fnt_debug_mode.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "a8266185-3530-435f-817c-0d2b38224018",
+            "Value": {
+                "id": "632337f9-f96d-4d77-b5b6-86daeb179ff3",
+                "resourcePath": "objects\\obj_pop_in\\obj_pop_in.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -735,6 +935,14 @@
             }
         },
         {
+            "Key": "ac99c82c-c115-4a6b-a99c-e8b7780ef6de",
+            "Value": {
+                "id": "47dcea98-aaf0-4171-a17f-062c6ee38de4",
+                "resourcePath": "objects\\obj_signe_capricorne\\obj_signe_capricorne.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ae063d2d-3316-4aed-bd49-bed95b86ad53",
             "Value": {
                 "id": "a67dae8e-bf2f-48c5-a32f-22617986b4eb",
@@ -763,6 +971,30 @@
             "Value": {
                 "id": "6e0d00eb-d26b-4afe-8c47-1504acd7e231",
                 "resourcePath": "views\\b2805483-005c-4386-bdf9-0fc3b2a11e6d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b3ae0766-783c-48ec-8c3a-3b04ac75b936",
+            "Value": {
+                "id": "f13de35e-fe96-426a-9df4-54cc410d1e02",
+                "resourcePath": "objects\\obj_signe_belier\\obj_signe_belier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b534cd08-543c-4286-ad31-edf25a9adf4e",
+            "Value": {
+                "id": "c7473355-b4a6-4922-9cc1-dbc5f94d076f",
+                "resourcePath": "objects\\obj_signe_verseau\\obj_signe_verseau.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b621e134-34c4-445f-a6aa-e1893d7691d3",
+            "Value": {
+                "id": "1eac67f3-2f37-4759-a34e-be1ad46b4b8b",
+                "resourcePath": "views\\b621e134-34c4-445f-a6aa-e1893d7691d3.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -839,11 +1071,27 @@
             }
         },
         {
+            "Key": "c11ff4a4-009f-4f67-95ca-ffdf612f17bd",
+            "Value": {
+                "id": "f47d214b-34bb-4820-a6dc-d86f538a8190",
+                "resourcePath": "sprites\\spr_signe_lion\\spr_signe_lion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c26caa78-04f8-4c70-8778-a101b44e3262",
             "Value": {
                 "id": "1aba6993-e1f5-4388-a6aa-422cf434b68d",
                 "resourcePath": "scripts\\scr_draw_sprite_ext\\scr_draw_sprite_ext.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c443d9ff-a459-466a-a713-1b43a853032f",
+            "Value": {
+                "id": "46b4096c-47b5-4e8f-ba3d-a335f36406b1",
+                "resourcePath": "fonts\\fnt_bouton_panel_droit\\fnt_bouton_panel_droit.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -951,6 +1199,14 @@
             }
         },
         {
+            "Key": "d6d3628e-69a1-4749-91cb-f1cfd0f89856",
+            "Value": {
+                "id": "fc808e61-7d1b-4781-a5dc-4c1280c263fb",
+                "resourcePath": "scripts\\scr_display_pop_in\\scr_display_pop_in.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dad54ceb-aeef-484f-9132-209d451e95ab",
             "Value": {
                 "id": "602b8d1a-040d-4c17-91eb-4968f096aba9",
@@ -988,6 +1244,14 @@
                 "id": "2d05a442-b4f8-4eef-a9d1-b649c6463ef6",
                 "resourcePath": "views\\df7ba642-9b4e-42ef-8497-467a2173428b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e0db2ccf-bb31-4b3f-a0c0-bd058211afc9",
+            "Value": {
+                "id": "05478518-bf3e-4667-84ea-265eae93f3f1",
+                "resourcePath": "objects\\obj_signe_lion\\obj_signe_lion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1087,11 +1351,27 @@
             }
         },
         {
+            "Key": "f55be1dd-9984-4c05-833f-5f0e8fe08b3d",
+            "Value": {
+                "id": "211d83d6-5dc3-49b4-b5e1-2219b0feec0b",
+                "resourcePath": "sprites\\spr_signe_gemaux\\spr_signe_gemaux.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f6116b3b-e44b-4825-8d3b-d4de1c1aac19",
             "Value": {
                 "id": "81b33960-bb24-4f6c-8d65-79ed82d139b0",
                 "resourcePath": "views\\f6116b3b-e44b-4825-8d3b-d4de1c1aac19.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7ccdb18-4561-426e-93e8-4b49ef86eb65",
+            "Value": {
+                "id": "095cad48-7681-4ca2-88f9-7da877f388ec",
+                "resourcePath": "objects\\obj_signe_poisson\\obj_signe_poisson.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1133,6 +1413,14 @@
                 "resourcePath": "sprites\\spr_panel_selection_pnj\\spr_panel_selection_pnj.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "ff0252c3-2ff3-4499-b5db-e8590305ad8d",
+            "Value": {
+                "id": "bd4cc7e2-65d8-4db4-b02d-536873536449",
+                "resourcePath": "sprites\\spr_signe_poisson\\spr_signe_poisson.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
@@ -1157,7 +1445,8 @@
         "638def2b-adad-4a0e-8a77-aed2c8ec0fc4",
         "66cae5ad-2359-45fa-97b1-339ec81579b5",
         "f9f1af58-ad86-4438-ae9f-d52a50ae5e13",
-        "4f979f6d-37ca-4d98-aed6-97b8fd22c00f"
+        "4f979f6d-37ca-4d98-aed6-97b8fd22c00f",
+        "d6d3628e-69a1-4749-91cb-f1cfd0f89856"
     ],
     "tutorial": ""
 }

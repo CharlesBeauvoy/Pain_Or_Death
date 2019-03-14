@@ -1,1 +1,1 @@
-scr_draw_center_object(fnt_game_over_title, c_white, "Yes t'as perdu.");
+scr_draw_center_object(fnt_game_over_title, c_white, "Yes t'as perdu.",1,1,0);

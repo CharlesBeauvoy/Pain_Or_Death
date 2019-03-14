@@ -26,12 +26,12 @@
             "value": "\"Monica\""
         },
         {
-            "id": "3e26858d-ef3a-4f79-a922-220e65cd50f9",
+            "id": "55a14ddb-8e1c-490f-af71-d1f141e7f59f",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",
-            "propertyId": "a947b6b4-7975-40bd-bf92-d80a552f1a0f",
-            "value": "\"Denver et Arturo\""
+            "propertyId": "fc6d3732-adce-4989-822c-bc90cec258a9",
+            "value": "obj_signe_cancer"
         }
     ],
     "parentObjectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",

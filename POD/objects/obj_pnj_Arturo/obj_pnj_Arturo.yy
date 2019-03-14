@@ -26,12 +26,12 @@
             "value": "\"Arturo\""
         },
         {
-            "id": "e926efcb-4a72-4948-b5e5-2dfdbbf32020",
+            "id": "964a85be-5db9-466a-9ef6-4fc53278e7a1",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",
-            "propertyId": "a947b6b4-7975-40bd-bf92-d80a552f1a0f",
-            "value": "\"Monica\""
+            "propertyId": "fc6d3732-adce-4989-822c-bc90cec258a9",
+            "value": "obj_signe_gemeaux"
         }
     ],
     "parentObjectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",
