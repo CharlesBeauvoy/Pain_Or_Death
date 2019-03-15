@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_pop_up_bg",
     "eventList": [
-        
+        {
+            "id": "c77a546f-173d-4258-b937-4a15d3f6e443",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "67e2b44d-6a1b-415f-8ad9-60ffaf7549ad"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

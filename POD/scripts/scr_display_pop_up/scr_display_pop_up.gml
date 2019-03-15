@@ -13,15 +13,17 @@ var pop_up_bg = instance_create_layer(room_width-sprite_get_width(spr_panel_sele
 instance_destroy(obj_pop_up_display);
 var pop_up_quit = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2,50,layer_id,obj_pop_up_display);
 
-var pop_up_name = instance_create_layer(pop_up_bg.x,pop_up_bg.y+50,layer_id,obj_pop_up_name_pnj);
-pop_up_name.texte = argument0.name;
+//var pop_up_name = instance_create_layer(pop_up_bg.x,pop_up_bg.y+50,layer_id,obj_pop_up_name_pnj);
+//pop_up_name.texte = argument0.name;
 
-pop_up_name.depth -= 1;
+//pop_up_name.depth -= 1;
 pop_up_quit.depth -= 2;
 
 if argument1 == true
 {
-	var bouton_pd_etiquette = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,pop_up_bg.y+150,layer_id,obj_bouton_pd_etiquette);
+	var bouton_pd_ws = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,pop_up_bg.y+150,layer_id,obj_bouton_pd_listen_dream);
+	var bouton_pd_ld = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,obj_bouton_pd_listen_dream.y+50,layer_id,obj_bouton_pd_watch_soul);
+	var bouton_pd_etiquette = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,obj_bouton_pd_watch_soul.y+50,layer_id,obj_bouton_pd_etiquette);
 	
 	if ds_stack_size(argument0.list_relation_sup)
 	{

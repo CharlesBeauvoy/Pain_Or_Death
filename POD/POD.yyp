@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "04a174f3-d90b-4ec5-b428-8f76d293faf4",
+            "Value": {
+                "id": "b054fd67-afc4-450e-8deb-08c441effdc9",
+                "resourcePath": "objects\\obj_meta_etiquette\\obj_meta_etiquette.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "056fcc4d-f8ba-47de-bafe-7abfd6ab50af",
+            "Value": {
+                "id": "a44fc6f9-552c-42c9-8989-15ed53e2359f",
+                "resourcePath": "views\\056fcc4d-f8ba-47de-bafe-7abfd6ab50af.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "05a5cd5e-99b3-4dec-b82d-3066811999b2",
             "Value": {
                 "id": "e3089d6d-3ccf-453e-9beb-2d2cac9b3d11",
@@ -159,6 +175,14 @@
             }
         },
         {
+            "Key": "1bf2d923-d46a-4772-af2c-e9bd79a834c9",
+            "Value": {
+                "id": "8bcb2738-be18-4fd8-8418-ee2dc92daf51",
+                "resourcePath": "objects\\obj_bouton_pd_etiquette_age\\obj_bouton_pd_etiquette_age.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1d62ea55-4a81-4945-9267-920abc6fd0e1",
             "Value": {
                 "id": "f08b7df6-5c0e-4cb8-8b9b-440147ee56c5",
@@ -175,6 +199,14 @@
             }
         },
         {
+            "Key": "20204e95-4037-475b-bcb2-2b619f6c718b",
+            "Value": {
+                "id": "fb4e5477-ff26-4e08-9c6d-558bf072e6fe",
+                "resourcePath": "objects\\obj_etiquette_enfant\\obj_etiquette_enfant.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "224a4435-4c73-415b-9117-b28a0d131ae8",
             "Value": {
                 "id": "dac07036-0e5d-4829-9b81-2235260c21ce",
@@ -188,6 +220,14 @@
                 "id": "0f5b6d31-9e3d-49ae-964f-3b620a6752e5",
                 "resourcePath": "sprites\\spr_jauge_month\\spr_jauge_month.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2708d1d8-544e-4c17-968e-0e818a0503ad",
+            "Value": {
+                "id": "8be301c9-02ce-4dfc-845e-ba8a916e8664",
+                "resourcePath": "views\\2708d1d8-544e-4c17-968e-0e818a0503ad.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -423,6 +463,14 @@
             }
         },
         {
+            "Key": "4f98f0cf-bfe8-43b2-bdba-4a8ef8d25276",
+            "Value": {
+                "id": "47d0f98a-d224-4858-99ac-36c8dd4c6ccd",
+                "resourcePath": "views\\4f98f0cf-bfe8-43b2-bdba-4a8ef8d25276.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5202a001-ecc3-4fed-800d-42d0026c2d71",
             "Value": {
                 "id": "02731a60-f219-4173-ac57-7f29fc9a9fdc",
@@ -535,6 +583,14 @@
             }
         },
         {
+            "Key": "611dff50-4e0d-421f-b792-65b0cd2b5723",
+            "Value": {
+                "id": "307e1dd9-ea57-4420-9f5a-26d44e621e67",
+                "resourcePath": "objects\\obj_bouton_pd_listen_dream\\obj_bouton_pd_listen_dream.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "613cb7f4-243a-4085-a54e-d7505875f7a8",
             "Value": {
                 "id": "0552e905-1025-41cf-8c1b-eadb54791cfc",
@@ -615,6 +671,14 @@
             }
         },
         {
+            "Key": "682aecc9-d192-482a-bfe0-fa590e177c79",
+            "Value": {
+                "id": "d6305f0b-27aa-44ad-866b-2ad214af1e28",
+                "resourcePath": "sprites\\spr_etiquette_femme\\spr_etiquette_femme.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b1ecaaf-daa2-4a78-8ece-1f7e41a59355",
             "Value": {
                 "id": "0e435d8b-208f-46cf-8e38-cb0a1067edd3",
@@ -628,6 +692,14 @@
                 "id": "726940dd-1292-421e-ad20-fbcd27912b30",
                 "resourcePath": "objects\\obj_bouton_pd_etiquette\\obj_bouton_pd_etiquette.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6bd52b7e-4097-469a-9141-068501a8d1ef",
+            "Value": {
+                "id": "aab3b325-8ece-44aa-9641-2e0846c5650b",
+                "resourcePath": "sprites\\spr_etiquette_enfant\\spr_etiquette_enfant.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -668,6 +740,14 @@
                 "id": "f91f4f24-8392-4fcf-a62b-0e2055cfa665",
                 "resourcePath": "views\\7421dcb9-f2b8-42af-b109-964a150b1cc1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "74d91790-a366-4bcd-b288-66b5027874e6",
+            "Value": {
+                "id": "178fdefa-dff6-459a-84e6-c2505828fb4e",
+                "resourcePath": "sprites\\spr_etiquette_homme\\spr_etiquette_homme.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -727,10 +807,34 @@
             }
         },
         {
+            "Key": "86eaa2a3-ed13-44aa-ac37-4e043701c0de",
+            "Value": {
+                "id": "7dc175f8-2029-44df-88a2-a91af89751b0",
+                "resourcePath": "views\\86eaa2a3-ed13-44aa-ac37-4e043701c0de.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "87cef9a6-70d0-4fb9-9a81-28dcc5bd38e0",
+            "Value": {
+                "id": "ca8c5f2e-c771-41c7-b963-8670592a116d",
+                "resourcePath": "objects\\obj_etiquette_age\\obj_etiquette_age.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "87d227be-cd09-4a7d-ab8b-62f8d897ce56",
             "Value": {
                 "id": "57af5b04-d5f3-4fed-a3e0-db77b1456976",
                 "resourcePath": "objects\\obj_display_titre_game_over\\obj_display_titre_game_over.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "88996daf-ada7-46e1-8b44-d8df59978334",
+            "Value": {
+                "id": "be963046-604f-4c13-be0f-f590210cbc6a",
+                "resourcePath": "objects\\obj_etiquette_adulte\\obj_etiquette_adulte.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -795,6 +899,14 @@
             "Value": {
                 "id": "dc7c4758-efe8-4910-a43e-1957f11509c7",
                 "resourcePath": "views\\943a1599-00ae-4d7c-ac11-5afb7e437ec1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "983bc55f-e422-4055-832d-a9b5d886cc52",
+            "Value": {
+                "id": "fee27d20-8f9f-4480-a177-93887cb1e08c",
+                "resourcePath": "views\\983bc55f-e422-4055-832d-a9b5d886cc52.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -935,11 +1047,27 @@
             }
         },
         {
+            "Key": "ac968fdc-00a2-45d0-b2f6-32c08e1bb4f8",
+            "Value": {
+                "id": "6ce96a88-e10b-49bc-a8e7-a73b9ae8a6b4",
+                "resourcePath": "objects\\obj_etiquette_homme\\obj_etiquette_homme.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ac99c82c-c115-4a6b-a99c-e8b7780ef6de",
             "Value": {
                 "id": "47dcea98-aaf0-4171-a17f-062c6ee38de4",
                 "resourcePath": "objects\\obj_signe_capricorne\\obj_signe_capricorne.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "add9e7ff-4162-4ca5-97df-05507dda3ed4",
+            "Value": {
+                "id": "4caf9960-73bd-471c-8d81-153fa3f5fedc",
+                "resourcePath": "scripts\\scr_add_etiquette\\scr_add_etiquette.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -951,19 +1079,19 @@
             }
         },
         {
+            "Key": "aeb61d8d-2691-400e-a3c9-b0d5ca22bfb0",
+            "Value": {
+                "id": "cf4d938e-cd4d-44c1-8ad5-aac29a236a4c",
+                "resourcePath": "sprites\\spr_etiquette_age\\spr_etiquette_age.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af97852b-4db5-4e48-a044-05db17425ed3",
             "Value": {
                 "id": "9a38d465-6036-44be-841f-9ab7f0e9e98f",
                 "resourcePath": "views\\af97852b-4db5-4e48-a044-05db17425ed3.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b045555c-462c-4e0e-8cb2-772fe33846df",
-            "Value": {
-                "id": "dcc586b8-2dd8-4fe5-b437-8e90ca696524",
-                "resourcePath": "objects\\obj_bouton_kill_pnj\\obj_bouton_kill_pnj.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1079,6 +1207,14 @@
             }
         },
         {
+            "Key": "c13b6c97-2c7d-47b3-a912-a540205cc0de",
+            "Value": {
+                "id": "5e5933f3-7720-45d6-a685-64440eb631e9",
+                "resourcePath": "objects\\obj_etiquette_femme\\obj_etiquette_femme.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c26caa78-04f8-4c70-8778-a101b44e3262",
             "Value": {
                 "id": "1aba6993-e1f5-4388-a6aa-422cf434b68d",
@@ -1143,6 +1279,14 @@
             }
         },
         {
+            "Key": "cb0f3026-c39f-4f21-a217-f7e137e1b7a0",
+            "Value": {
+                "id": "696c7087-0505-49a7-b561-ce13371c9499",
+                "resourcePath": "views\\cb0f3026-c39f-4f21-a217-f7e137e1b7a0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc111b22-6516-4313-87bf-0832c467fdfe",
             "Value": {
                 "id": "eb2b9b15-f148-4329-b4fe-5b54c38d9f22",
@@ -1164,6 +1308,14 @@
                 "id": "5692bf97-39ef-4942-83e2-5d9a38e8937a",
                 "resourcePath": "views\\cfd8faae-82b1-4f63-afcc-b6b2fe112781.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d0d3fbdf-4d88-4995-8040-5ca072442c4a",
+            "Value": {
+                "id": "7b876fa2-29c7-40f6-9c6a-4ae2418b8f18",
+                "resourcePath": "sprites\\spr_etiquette_adulte\\spr_etiquette_adulte.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1227,6 +1379,14 @@
             "Value": {
                 "id": "7f043507-25f0-42d9-a6b0-afe3efd2099d",
                 "resourcePath": "objects\\obj_persistent\\obj_persistent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de8ec67d-e0b2-463c-ae49-56bdc71ca867",
+            "Value": {
+                "id": "df8e63b7-6a6f-4fc8-a7e0-c48587ad30bd",
+                "resourcePath": "objects\\obj_bouton_pd_etiquette_sexe\\obj_bouton_pd_etiquette_sexe.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1399,6 +1559,14 @@
             }
         },
         {
+            "Key": "faa87204-3636-455c-ba78-ebe121503e8d",
+            "Value": {
+                "id": "50bb843a-7c56-4ce8-b26b-2901e921510a",
+                "resourcePath": "objects\\obj_bouton_pd_watch_soul\\obj_bouton_pd_watch_soul.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fb85fceb-c1ad-405f-bfac-2415c1bf8fa3",
             "Value": {
                 "id": "b9b2032c-873e-40d3-bf91-e0143863134e",
@@ -1412,6 +1580,14 @@
                 "id": "823fb6b3-4acd-4f47-a521-5733e554ae01",
                 "resourcePath": "sprites\\spr_panel_selection_pnj\\spr_panel_selection_pnj.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "feae0824-97e1-4326-a21b-b33b6975b752",
+            "Value": {
+                "id": "f076ae25-9a78-42c3-b943-a81e7a269bda",
+                "resourcePath": "views\\feae0824-97e1-4326-a21b-b33b6975b752.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1446,7 +1622,8 @@
         "66cae5ad-2359-45fa-97b1-339ec81579b5",
         "f9f1af58-ad86-4438-ae9f-d52a50ae5e13",
         "4f979f6d-37ca-4d98-aed6-97b8fd22c00f",
-        "d6d3628e-69a1-4749-91cb-f1cfd0f89856"
+        "d6d3628e-69a1-4749-91cb-f1cfd0f89856",
+        "add9e7ff-4162-4ca5-97df-05507dda3ed4"
     ],
     "tutorial": ""
 }

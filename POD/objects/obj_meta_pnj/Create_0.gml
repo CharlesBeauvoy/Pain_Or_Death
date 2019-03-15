@@ -10,6 +10,8 @@ list_relation_secret = ds_stack_create();
 list_relation_weigth_secret = ds_stack_create();
 list_relation_secret_text = ds_stack_create();
 
+list_etiquette = ds_list_create();
+
 draw_pop_up_link = false;
 draw_relation_link = false;
 

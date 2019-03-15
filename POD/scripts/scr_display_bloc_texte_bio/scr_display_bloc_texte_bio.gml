@@ -18,7 +18,7 @@ for(var i=1; i<string_length(str)+1; i++)
 }
 
 var posX = obj_pop_up_bg.x -obj_pop_up_bg.sprite_width/2 + 20;
-var posY = obj_pop_up_name_pnj.y + 50;
+var posY = obj_pop_up_bg.y + 250;
 var layer_id = layer_get_id("Instances_panel_droit");
 
 var espacement = 10;

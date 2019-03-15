@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_bouton_pd_etiquette",
     "eventList": [
-        
+        {
+            "id": "d73a66d3-ccc5-40ef-8e2b-eea2adbbf5d4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 6,
+            "m_owner": "6b504791-6e8b-4822-a20a-301489495f56"
+        },
+        {
+            "id": "4d0ef9a6-0769-4aa1-aca3-f2eeecdee2f7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6b504791-6e8b-4822-a20a-301489495f56"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

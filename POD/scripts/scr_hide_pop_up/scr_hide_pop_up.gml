@@ -16,8 +16,13 @@ if instance_exists(obj_pop_up_display)
 	obj_pop_up_display.image_xscale *= -1;
 }
 instance_destroy(obj_meta_bloc_text_bio);
-instance_destroy(obj_bouton_kill_pnj);
 instance_destroy(obj_bouton_link_sup);
 instance_destroy(obj_bouton_link_secret);
-
+with obj_bouton_pd_etiquette
+{
+	if clicked
+		event_perform(ev_mouse,ev_left_release);
+}
 instance_destroy(obj_bouton_pd_etiquette);
+instance_destroy(obj_bouton_pd_watch_soul);
+instance_destroy(obj_bouton_pd_listen_dream);
