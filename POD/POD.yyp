@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "14893988-d52b-4100-b846-392eae501cea",
+            "Value": {
+                "id": "583d5898-d8bb-4f87-bf41-3cb609a66412",
+                "resourcePath": "objects\\obj_curseur_view\\obj_curseur_view.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "14b11c1f-15c3-4a5f-96cc-4cab36d6ccda",
             "Value": {
                 "id": "b4cf8332-eb84-4988-812d-5b3b1e42bf4e",
