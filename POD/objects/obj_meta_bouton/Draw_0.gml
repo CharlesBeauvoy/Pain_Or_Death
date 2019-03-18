@@ -1,2 +1,2 @@
-draw_self();
-scr_draw_center_object(font,color,texte,1,1,0);
+/// @description Insert description here
+// You can write your code in this editor

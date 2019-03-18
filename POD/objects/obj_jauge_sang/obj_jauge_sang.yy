@@ -5,7 +5,17 @@
     "name": "obj_jauge_sang",
     "eventList": [
         {
-            "id": "62b7d4b0-9455-44e8-b831-3c3c2d3f5599",
+            "id": "7df8f4fd-16f1-42c3-96b5-3176e2b56f02",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "b6b4bc29-ba40-4647-ab47-ad2beb670e00"
+        },
+        {
+            "id": "1a7b321c-dd9c-4114-ae52-f81ce808be4f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

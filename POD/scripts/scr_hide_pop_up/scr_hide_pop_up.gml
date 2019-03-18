@@ -12,7 +12,7 @@ instance_destroy(obj_pop_up_bouton_see);
 //instance_destroy(obj_pop_up_display);
 if instance_exists(obj_pop_up_display)
 {
-	obj_pop_up_display.x = room_width-obj_pop_up_display.sprite_width;
+	obj_pop_up_display.x = obj_persistent.gui_width-obj_pop_up_display.sprite_width;
 	obj_pop_up_display.image_xscale *= -1;
 }
 instance_destroy(obj_meta_bloc_text_bio);

@@ -9,7 +9,7 @@ argument0.draw_pop_up_link = true;
 
 var layer_id = layer_get_id("Instances_panel_droit");
 
-var pop_up_bg = instance_create_layer(room_width-sprite_get_width(spr_panel_selection_pnj)/2,0,layer_id,obj_pop_up_bg);
+var pop_up_bg = instance_create_layer(obj_persistent.gui_width-sprite_get_width(spr_panel_selection_pnj)/2,0,layer_id,obj_pop_up_bg);
 instance_destroy(obj_pop_up_display);
 var pop_up_quit = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2,50,layer_id,obj_pop_up_display);
 
@@ -41,7 +41,7 @@ if argument1 == true
 }
 else if argument1 == false
 {
-	var bouton_see_more = instance_create_layer(pop_up_bg.x,room_height/2,layer_id,obj_pop_up_bouton_see);
+	var bouton_see_more = instance_create_layer(pop_up_bg.x,obj_persistent.gui_height/2,layer_id,obj_pop_up_bouton_see);
 	bouton_see_more.depth -= 4;
 }
 
