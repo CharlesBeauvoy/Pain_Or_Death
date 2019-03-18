@@ -10,3 +10,5 @@ ds_stack_destroy(list_relation_sup_text);
 ds_stack_destroy(list_relation_secret);
 ds_stack_destroy(list_relation_weigth_secret);
 ds_stack_destroy(list_relation_secret_text);
+
+ds_map_destroy(map_information_known);

@@ -18,8 +18,11 @@ for(var i=0;i<ds_list_size(obj.list_relation);i++)
 {
 	var tmp = ds_list_find_value(obj.list_relation,i)
 	tmp.known = true;
+	ds_map_replace(tmp.map_information_known,"name",tmp.name);
+	tmp.info_known += 1;
 }
 scr_hide_pop_up_hyperlink();
-
 scr_gain_day(20); //tribut de sang pour reveler un personnage
+ds_map_replace(obj_persistent.pnj_selected.map_information_known,"name",obj_persistent.pnj_selected.name);
+obj_persistent.pnj_selected.info_known += 1;
 //obj_persistent.pnj_selected.sprite_index = spr_pnj_selected;

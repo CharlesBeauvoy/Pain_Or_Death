@@ -13,5 +13,7 @@ else
 			event_perform(ev_mouse, ev_left_release);
 	}
 	else
-		watch_soul_count = 30;
+		watch_soul_count = watch_soul_count_base;
+	scr_watch_soul(self);
+	scr_infos_contexte("L'âme de "+self.name+" est connue");
 }

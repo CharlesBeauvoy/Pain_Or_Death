@@ -23,6 +23,16 @@
             "enumb": 7,
             "eventtype": 6,
             "m_owner": "611dff50-4e0d-421f-b792-65b0cd2b5723"
+        },
+        {
+            "id": "1f90f8aa-2acb-490d-8724-70709616adc0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 69,
+            "eventtype": 10,
+            "m_owner": "611dff50-4e0d-421f-b792-65b0cd2b5723"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,7 +43,7 @@
             "mvc": "1.0",
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
             "propertyId": "1414e2a5-12e1-4402-ae9f-021ac27f4b51",
-            "value": "\"Ecouter les rêves\""
+            "value": "\"E - Ecouter les rêves\""
         },
         {
             "id": "867274ee-32d3-430d-95ca-64ec46adef88",

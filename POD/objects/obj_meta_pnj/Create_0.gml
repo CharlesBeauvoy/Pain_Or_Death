@@ -10,6 +10,14 @@ list_relation_secret = ds_stack_create();
 list_relation_weigth_secret = ds_stack_create();
 list_relation_secret_text = ds_stack_create();
 
+map_information_known = ds_map_create();
+ds_map_add(map_information_known,"name","inconnu");
+ds_map_add(map_information_known,"surname","inconnu");
+ds_map_add(map_information_known,"signe","inconnu");
+ds_map_add(map_information_known,"age","inconnu");
+ds_map_add(map_information_known,"metier","inconnu");
+ds_map_add(map_information_known,"lieu","inconnu");
+
 list_etiquette = ds_list_create();
 
 draw_pop_up_link = false;
@@ -23,7 +31,9 @@ sprite_index = spr_pnj_unknown;
 
 bio_height = 0;
 
-watch_soul_count = 30;
+watch_soul_count = 5;
+watch_soul_count_base = 5;
+info_known = 0;
 listen_dream_count = 30;
 
 signe = instance_create_layer(x,y,"Instances_selection_pnj",signe);

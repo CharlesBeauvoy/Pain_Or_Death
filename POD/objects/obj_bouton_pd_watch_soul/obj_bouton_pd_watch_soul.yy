@@ -23,6 +23,16 @@
             "enumb": 7,
             "eventtype": 6,
             "m_owner": "faa87204-3636-455c-ba78-ebe121503e8d"
+        },
+        {
+            "id": "0071a900-8bde-4bef-8e8e-8bb85829bb6f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 79,
+            "eventtype": 10,
+            "m_owner": "faa87204-3636-455c-ba78-ebe121503e8d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,7 +43,7 @@
             "mvc": "1.0",
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
             "propertyId": "1414e2a5-12e1-4402-ae9f-021ac27f4b51",
-            "value": "\"Observer l'âme\""
+            "value": "\"O - Observer l'âme\""
         },
         {
             "id": "cd3f0fb3-04f1-41ae-9412-3054477df6ec",
