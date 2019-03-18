@@ -17,12 +17,14 @@ draw_relation_link = false;
 
 visited = false;
 known = false;
-
 marked = false;
 
 sprite_index = spr_pnj_unknown;
 
 bio_height = 0;
+
+watch_soul_count = 30;
+listen_dream_count = 30;
 
 signe = instance_create_layer(x,y,"Instances_selection_pnj",signe);
 //signe.visible = false;

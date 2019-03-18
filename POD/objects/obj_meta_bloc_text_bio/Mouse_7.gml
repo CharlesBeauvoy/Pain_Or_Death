@@ -1,4 +1,4 @@
-if !obj_persistent.not_clickable and instance_exists(obj_persistent.pnj_hovered)
+if instance_exists(obj_persistent.pnj_hovered)
 {
 	if hyperlink and obj_persistent.pnj_hovered.visited
 	{
