@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "27a341ec-6202-4fac-bd29-27bd5f224692",
+            "Value": {
+                "id": "4333a6a1-1bb6-409b-9070-9a03848c353d",
+                "resourcePath": "extensions\\Draw_Text_Outlined\\Draw_Text_Outlined.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "27dcb9c4-ded1-4646-b906-df2cf0ab9c61",
             "Value": {
                 "id": "1831e9d2-6654-4c7c-9652-e729bdb3fc08",
@@ -1103,6 +1111,14 @@
             }
         },
         {
+            "Key": "9d6e57f5-26b7-4884-8111-a81d6e60ee69",
+            "Value": {
+                "id": "df904d0d-eb75-4369-9d01-5dc27d3a745e",
+                "resourcePath": "scripts\\draw_text_outline\\draw_text_outline.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a45a5370-8113-41b1-b9cb-a17f742617e0",
             "Value": {
                 "id": "78547ddd-28b0-41f2-b6b1-7f290d65b0f2",
@@ -1850,6 +1866,7 @@
         "325d55e9-49fa-4700-9e82-049a00f19da1",
         "5b54ee55-b70f-4a5c-bd17-050f7d601d48",
         "43638614-d173-4e74-9e12-ea865f8a1536",
+        "9d6e57f5-26b7-4884-8111-a81d6e60ee69",
         "8d162fc4-f95e-43b9-b50a-461f8ca1592e",
         "4f4df8e5-2d08-4908-82dc-e75d306d2fb6",
         "ddf0d778-a44e-4faa-beb1-8cb5af52e6ca",

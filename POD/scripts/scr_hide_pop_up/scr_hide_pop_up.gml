@@ -19,7 +19,7 @@ instance_destroy(obj_bouton_link_secret);
 with obj_bouton_pd_etiquette
 {
 	if clicked
-		event_perform(ev_mouse,ev_left_release);
+		script_execute(script_left_released);
 }
 instance_destroy(obj_bouton_pd_etiquette);
 instance_destroy(obj_timer_feature);
