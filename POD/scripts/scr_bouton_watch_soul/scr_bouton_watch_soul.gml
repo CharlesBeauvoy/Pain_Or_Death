@@ -1,6 +1,5 @@
 if !clicked
 {
-	scr_loss_sang(50);
 	color = c_black;
 	image_blend = c_white;
 	var index = 0;

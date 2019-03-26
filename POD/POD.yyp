@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "18128052-3f9e-46bb-9984-f96fc769d2fe",
+            "Value": {
+                "id": "388aa6fe-3c03-4a71-9e21-031cf6af9175",
+                "resourcePath": "scripts\\scr_bouton_bio\\scr_bouton_bio.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "188dc625-4516-44ec-b73d-95ddc736618f",
             "Value": {
                 "id": "308acc36-ab22-4940-b44c-2ffc173cf011",
@@ -1263,6 +1271,14 @@
             }
         },
         {
+            "Key": "b68d5425-092b-427d-b77a-72f9a0c1382e",
+            "Value": {
+                "id": "0047bf3c-3d4a-41ec-aeb3-ace9ffcb938c",
+                "resourcePath": "scripts\\scr_set_pnj_bio\\scr_set_pnj_bio.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b6b4bc29-ba40-4647-ab47-ad2beb670e00",
             "Value": {
                 "id": "448c63d9-a121-416c-93c9-d5ad24ad2f17",
@@ -1797,6 +1813,7 @@
         "77eaf5a6-d1b8-4743-827a-29bb0ec5258a",
         "4f979f6d-37ca-4d98-aed6-97b8fd22c00f",
         "299cd171-131d-4193-840d-336953cb3c95",
+        "b68d5425-092b-427d-b77a-72f9a0c1382e",
         "c26caa78-04f8-4c70-8778-a101b44e3262",
         "325d55e9-49fa-4700-9e82-049a00f19da1",
         "5b54ee55-b70f-4a5c-bd17-050f7d601d48",
@@ -1827,7 +1844,8 @@
         "57094615-07e1-48e6-8425-6639168e771e",
         "f6a98163-6566-442c-b90a-0adca5785965",
         "188dc625-4516-44ec-b73d-95ddc736618f",
-        "8dc6a0d0-d542-44d9-87be-9376370c5f6f"
+        "8dc6a0d0-d542-44d9-87be-9376370c5f6f",
+        "18128052-3f9e-46bb-9984-f96fc769d2fe"
     ],
     "tutorial": ""
 }
