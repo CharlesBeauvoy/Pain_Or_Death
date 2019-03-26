@@ -1,6 +1,6 @@
 with obj_bouton_pd_listen_dream
 {
-	if obj_persistent.pnj_selected.info_known >= 6
+	if obj_persistent.pnj_selected.info_known >= ds_list_size(obj_persistent.list_key_pnj)
 		return scr_infos_contexte("Toute l'âme de "+obj_persistent.pnj_selected.name+" est découverte");
 	if !clicked
 	{

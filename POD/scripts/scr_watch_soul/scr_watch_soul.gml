@@ -1,5 +1,5 @@
 ///@param instance
-if argument0.info_known >= 6
+if argument0.info_known >= ds_list_size(obj_persistent.list_key_pnj)
 	return scr_infos_contexte("Toute l'âme de "+argument0.name+" est découverte");
 
 var rdm_index = irandom_range(0,ds_list_size(obj_persistent.list_key_pnj)-1);

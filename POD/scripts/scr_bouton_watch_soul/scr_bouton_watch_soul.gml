@@ -1,3 +1,6 @@
+if obj_persistent.pnj_selected.info_known >= ds_list_size(obj_persistent.list_key_pnj)
+	return scr_infos_contexte("Toute l'âme de "+obj_persistent.pnj_selected.name+" est découverte");
+
 if !clicked
 {
 	color = c_black;
@@ -15,8 +18,6 @@ if !clicked
 			index += 1;
 		}
 	}
-	if index == 0
-		return scr_infos_contexte("Vous connaissez toute son âme");
 	
 }
 else
