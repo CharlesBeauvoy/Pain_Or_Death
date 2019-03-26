@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "54282a4f-63cb-4b45-bc5d-6b8d0e69719f",
+            "Value": {
+                "id": "9db24e6e-d754-4e28-9192-69c336b9a6ff",
+                "resourcePath": "paths\\pth_info_compteur\\pth_info_compteur.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "5493c497-cb3b-4cff-aecd-82e1e02986ee",
             "Value": {
                 "id": "94064f37-e5b4-40f2-8ef9-221151c9febb",
@@ -951,6 +959,14 @@
             }
         },
         {
+            "Key": "8918120f-d4e5-4b75-aafd-ae2d674c9c27",
+            "Value": {
+                "id": "417ce605-1f93-4446-bdc1-119af1fb5e44",
+                "resourcePath": "fonts\\fnt_info_compteur\\fnt_info_compteur.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8a7ccd34-5027-479b-8fa1-09312409bd71",
             "Value": {
                 "id": "d7f967cd-c9c4-4f26-a7f6-23c1c9d55d30",
@@ -988,6 +1004,14 @@
                 "id": "41cb4882-448d-46d1-a9d3-3bb836e3b879",
                 "resourcePath": "scripts\\scr_bouton_etiquette\\scr_bouton_etiquette.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8e14a5c0-6404-49d1-9b54-145af20247df",
+            "Value": {
+                "id": "65816be4-7497-4ef7-a0f2-6ae21951d59e",
+                "resourcePath": "objects\\obj_info_compteur\\obj_info_compteur.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1711,6 +1735,14 @@
             }
         },
         {
+            "Key": "f4f5bdc8-6dac-477e-93bc-aec26db866dd",
+            "Value": {
+                "id": "5b297eb1-4ddd-4c63-87e0-816108bdef12",
+                "resourcePath": "scripts\\scr_info_compteur\\scr_info_compteur.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f55be1dd-9984-4c05-833f-5f0e8fe08b3d",
             "Value": {
                 "id": "211d83d6-5dc3-49b4-b5e1-2219b0feec0b",
@@ -1834,6 +1866,7 @@
         "638def2b-adad-4a0e-8a77-aed2c8ec0fc4",
         "66cae5ad-2359-45fa-97b1-339ec81579b5",
         "f9f1af58-ad86-4438-ae9f-d52a50ae5e13",
+        "f4f5bdc8-6dac-477e-93bc-aec26db866dd",
         "add9e7ff-4162-4ca5-97df-05507dda3ed4",
         "854e2e6e-339c-49c0-a43e-184e4bcfa256",
         "b6fb1dd0-ab6f-4fa7-90aa-a896d5785acd",
