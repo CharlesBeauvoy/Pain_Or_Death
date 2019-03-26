@@ -1,25 +1,29 @@
-with obj_bouton_pd_watch_soul
+if !clicked
 {
-	if obj_persistent.pnj_selected.info_known >= 6
-		return scr_infos_contexte("Toute l'âme de "+obj_persistent.pnj_selected.name+" est découverte");
-	if !clicked
+	scr_loss_sang(50);
+	color = c_black;
+	image_blend = c_white;
+	var index = 0;
+	for(var i=0; i<ds_list_size(obj_persistent.list_key_pnj); i++)
 	{
-		scr_loss_sang(20);
-		color = c_black;
-		image_blend = c_white;
-		timer = instance_create_layer(x-sprite_width/2-sprite_get_width(spr_timer_feature)/2,y,"Instances_panel_droit",obj_timer_feature);
-		timer.texte = obj_persistent.pnj_selected.watch_soul_count;
-		with obj_persistent.pnj_selected
-			alarm[3] = room_speed;
+		var key = ds_list_find_value(obj_persistent.list_key_pnj,i);
+		var rdm_value = ds_map_find_value(obj_persistent.pnj_selected.map_information_known,key);
+		if rdm_value == "inconnu"
+		{
+			var tmp = instance_create_layer(obj_bouton_pd_watch_soul.x-sprite_width-5,obj_bouton_pd_watch_soul.y+index*sprite_height+index*5,"Instances_panel_droit",obj_bouton_bio);
+			tmp.key = key;
+			tmp.texte = ds_list_find_value(obj_persistent.list_name_key_pnj,i);
+			index += 1;
+		}
 	}
-	else
-	{
-		color = c_white;
-		image_blend = c_black;
-		instance_destroy(timer);
-		timer = noone;
-		obj_persistent.pnj_selected.watch_soul_count = obj_persistent.pnj_selected.watch_soul_count_base;
-		obj_persistent.pnj_selected.alarm[3] = -1;
-	}
-	clicked = !clicked;	
+	if index == 0
+		return scr_infos_contexte("Vous connaissez toute son âme");
+	
 }
+else
+{
+	color = c_white;
+	image_blend = c_black;
+	instance_destroy(obj_bouton_bio);
+}
+clicked = !clicked;	

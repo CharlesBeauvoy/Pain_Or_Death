@@ -1,1 +1,1 @@
-event_perform(ev_mouse, ev_left_release);
+script_execute(script_left_released);

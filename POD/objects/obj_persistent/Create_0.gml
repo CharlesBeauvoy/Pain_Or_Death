@@ -24,3 +24,8 @@ camera_view_port_x = 0;
 camera_view_port_y = 0;
 
 button_selected = noone;
+
+list_key_pnj = ds_list_create();
+ds_list_add(list_key_pnj,"name","surname","age","metier","signe","lieu");
+list_name_key_pnj = ds_list_create();
+ds_list_add(list_name_key_pnj,"Prénom","Nom","Âge","Métier","Zodiac","Lieu");

@@ -1,1 +1,0 @@
-scr_draw_ext_center_object(fnt_debug_mode,c_black,texte,30,sprite_width);

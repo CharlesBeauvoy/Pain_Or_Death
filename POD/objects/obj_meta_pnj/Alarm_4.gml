@@ -1,4 +1,4 @@
-/// @description Listen Dream
+/// @description Watch Soul
 
 listen_dream_count -= 1;
 obj_bouton_pd_listen_dream.timer.texte = listen_dream_count;

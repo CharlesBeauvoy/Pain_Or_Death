@@ -5,16 +5,6 @@
     "name": "obj_bouton_pd_listen_dream",
     "eventList": [
         {
-            "id": "696e2bd6-89a2-4e8b-901f-0ec755e116e7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "611dff50-4e0d-421f-b792-65b0cd2b5723"
-        },
-        {
             "id": "1f90f8aa-2acb-490d-8724-70709616adc0",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -52,6 +42,14 @@
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
             "propertyId": "98fa082b-2e3f-425d-8a34-3dc130549e20",
             "value": "fnt_bouton_panel_droit"
+        },
+        {
+            "id": "a658577d-8de0-4b83-8c13-f6f17d564dc8",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
+            "propertyId": "e9e1dd96-9978-42a9-a702-c42d35657d6d",
+            "value": "scr_bouton_listen_dream"
         }
     ],
     "parentObjectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
