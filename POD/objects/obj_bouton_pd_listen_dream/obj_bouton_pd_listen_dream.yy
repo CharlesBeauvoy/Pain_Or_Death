@@ -5,16 +5,6 @@
     "name": "obj_bouton_pd_listen_dream",
     "eventList": [
         {
-            "id": "3a0273b3-526d-494f-b68b-d24743251f45",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "611dff50-4e0d-421f-b792-65b0cd2b5723"
-        },
-        {
             "id": "696e2bd6-89a2-4e8b-901f-0ec755e116e7",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 69,
             "eventtype": 10,
+            "m_owner": "611dff50-4e0d-421f-b792-65b0cd2b5723"
+        },
+        {
+            "id": "72f210cf-599f-4ec9-a470-936cb312021c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "611dff50-4e0d-421f-b792-65b0cd2b5723"
         }
     ],

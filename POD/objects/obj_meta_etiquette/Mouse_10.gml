@@ -1,4 +1,2 @@
-if pnj_linked == noone
-	window_set_cursor(cr_handpoint);
-else
+if pnj_linked != noone
 	scr_display_pop_in(texte);

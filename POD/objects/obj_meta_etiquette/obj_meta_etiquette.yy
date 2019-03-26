@@ -5,17 +5,17 @@
     "name": "obj_meta_etiquette",
     "eventList": [
         {
-            "id": "aaddab4d-5350-4aec-ad13-371ed7fb29c2",
+            "id": "64393834-9a82-4fed-a150-f7619139ba31",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
+            "enumb": 75,
+            "eventtype": 8,
             "m_owner": "04a174f3-d90b-4ec5-b428-8f76d293faf4"
         },
         {
-            "id": "43bdbb70-48a4-488e-ad61-b49b9622ba20",
+            "id": "7354f609-05ba-4dd3-b41d-f7209c000da2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "04a174f3-d90b-4ec5-b428-8f76d293faf4"
         },
         {
-            "id": "3e3ca034-c283-4e55-a4c1-45550b58c6d9",
+            "id": "a8fc2d1c-8386-4905-b48f-2773e582769c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "04a174f3-d90b-4ec5-b428-8f76d293faf4"
         },
         {
-            "id": "732a9a1b-904e-4809-bade-25eb5f43a724",
+            "id": "46658c67-7691-407a-a2e4-a4595804a071",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -45,7 +45,7 @@
             "m_owner": "04a174f3-d90b-4ec5-b428-8f76d293faf4"
         },
         {
-            "id": "56d777d7-56e3-4472-99a5-4da236805bf0",
+            "id": "65a2b2ed-b8e9-4abb-a0e1-1e85f35466e9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -57,7 +57,14 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
-        
+        {
+            "id": "f41071c7-d8f8-4331-a822-f4096e2895e4",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
+            "propertyId": "e9e1dd96-9978-42a9-a702-c42d35657d6d",
+            "value": "scr_etiquette"
+        }
     ],
     "parentObjectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
     "persistent": false,

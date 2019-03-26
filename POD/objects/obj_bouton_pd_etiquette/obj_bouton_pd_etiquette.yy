@@ -5,17 +5,7 @@
     "name": "obj_bouton_pd_etiquette",
     "eventList": [
         {
-            "id": "d73a66d3-ccc5-40ef-8e2b-eea2adbbf5d4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "6b504791-6e8b-4822-a20a-301489495f56"
-        },
-        {
-            "id": "4d0ef9a6-0769-4aa1-aca3-f2eeecdee2f7",
+            "id": "26407db2-ef22-4df2-886f-184287ea9bcb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -42,6 +32,14 @@
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
             "propertyId": "98fa082b-2e3f-425d-8a34-3dc130549e20",
             "value": "fnt_bouton_panel_droit"
+        },
+        {
+            "id": "f2ab5fe7-1941-4328-aa9e-97da1674f32a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
+            "propertyId": "e9e1dd96-9978-42a9-a702-c42d35657d6d",
+            "value": "scr_bouton_etiquette"
         }
     ],
     "parentObjectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",

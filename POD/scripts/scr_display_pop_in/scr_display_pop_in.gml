@@ -1,6 +1,6 @@
 ///@param texte
 
-var pop_in = instance_create_layer(x,y,"Instances_UI_above",obj_pop_in);
+var pop_in = instance_create_layer(mouse_x+30,mouse_y+30,"Instances_UI_above",obj_pop_in);
 
 draw_set_font(fnt_pop_in);
 pop_in.image_xscale = string_width_ext(argument0,25,100)+10;
