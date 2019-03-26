@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "797091ce-0661-4211-ad17-70634e204995",
+            "Value": {
+                "id": "dbd9a094-41b6-4a60-bb6a-0d9396201bf9",
+                "resourcePath": "sprites\\spr_pop_up_quit_rev\\spr_pop_up_quit_rev.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d7e0445-3f10-4426-a37e-6a630d21a5f8",
             "Value": {
                 "id": "6f30b688-54cc-46ff-9beb-c10674830b7c",

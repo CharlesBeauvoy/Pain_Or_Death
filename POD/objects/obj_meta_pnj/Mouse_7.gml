@@ -1,4 +1,4 @@
-if !instance_exists(obj_timing) and !obj_persistent.not_clickable and !instance_place(mouse_x,mouse_y,obj_pop_up_display)
+if !instance_exists(obj_timing) and !obj_persistent.not_clickable
 {
 	if visited == false and !instance_exists(obj_timing)
 	{

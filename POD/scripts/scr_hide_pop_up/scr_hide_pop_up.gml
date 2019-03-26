@@ -11,7 +11,7 @@ instance_destroy(obj_bouton_bio);
 if instance_exists(obj_pop_up_display)
 {
 	obj_pop_up_display.x = obj_persistent.gui_width-obj_pop_up_display.sprite_width;
-	obj_pop_up_display.image_xscale *= -1;
+	obj_pop_up_display.sprite_index = spr_pop_up_quit_rev;
 }
 instance_destroy(obj_meta_bloc_text_bio);
 instance_destroy(obj_bouton_link_sup);
