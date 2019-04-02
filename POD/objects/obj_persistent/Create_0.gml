@@ -6,6 +6,8 @@ not_clickable = false;
 
 action_number = 0;
 
+moving_view = false;
+	
 pnj_selected = noone;
 pnj_hovered = noone;
 

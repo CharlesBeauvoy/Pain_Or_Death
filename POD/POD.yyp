@@ -1815,6 +1815,14 @@
             }
         },
         {
+            "Key": "f8ab7f06-7af1-4172-93bc-643620c7bdc8",
+            "Value": {
+                "id": "2679b451-4900-4db8-9ab5-6e7b272e3f4f",
+                "resourcePath": "scripts\\scr_zoom\\scr_zoom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f9f1af58-ad86-4438-ae9f-d52a50ae5e13",
             "Value": {
                 "id": "dd7a54d3-b3c2-4ebd-830b-b30785961147",
@@ -1912,7 +1920,8 @@
         "188dc625-4516-44ec-b73d-95ddc736618f",
         "8dc6a0d0-d542-44d9-87be-9376370c5f6f",
         "18128052-3f9e-46bb-9984-f96fc769d2fe",
-        "bc2b5c78-4bef-4256-92ec-d03862d77c1a"
+        "bc2b5c78-4bef-4256-92ec-d03862d77c1a",
+        "f8ab7f06-7af1-4172-93bc-643620c7bdc8"
     ],
     "tutorial": ""
 }
