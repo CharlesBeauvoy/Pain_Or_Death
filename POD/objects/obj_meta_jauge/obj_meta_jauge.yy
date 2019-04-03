@@ -93,6 +93,20 @@
             "value": "\"Energie\"",
             "varName": "type",
             "varType": 2
+        },
+        {
+            "id": "2ed4bab9-763a-4474-81a4-64e6f1b05651",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "value_max",
+            "varType": 0
         }
     ],
     "solid": false,

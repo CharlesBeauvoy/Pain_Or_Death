@@ -24,6 +24,10 @@ else
 		rdm_obj.alarm[2] = 1;
 		instance_destroy(rdm_obj.signe);
 	}
+	obj_persistent.pnj_marked = noone;
+	obj_jauge_sang.value_thresold = obj_jauge_sang.value_max - obj_jauge_souffrance.value_current;
+	obj_jauge_sang.value_current = obj_jauge_sang.value_thresold;
+	
 	instance_destroy(obj_pop_up_lp_done);
 	instance_destroy(self);
 }

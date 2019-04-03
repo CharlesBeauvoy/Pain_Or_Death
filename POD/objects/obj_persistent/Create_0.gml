@@ -4,7 +4,7 @@ last_infos_contexte = noone;
 
 not_clickable = false;
 
-action_number = 0;
+pnj_marked = noone;
 
 moving_view = false;
 	
