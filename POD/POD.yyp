@@ -1671,6 +1671,14 @@
             }
         },
         {
+            "Key": "cf1aaf37-d63a-41ff-bded-2b582b082cba",
+            "Value": {
+                "id": "0eb40619-d07a-41fb-b2b8-6820ef434ec8",
+                "resourcePath": "scripts\\scr_bouton_pop_up_lp_done\\scr_bouton_pop_up_lp_done.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cfd8faae-82b1-4f63-afcc-b6b2fe112781",
             "Value": {
                 "id": "5692bf97-39ef-4942-83e2-5d9a38e8937a",
@@ -2070,6 +2078,7 @@
         "8dc6a0d0-d542-44d9-87be-9376370c5f6f",
         "18128052-3f9e-46bb-9984-f96fc769d2fe",
         "bc2b5c78-4bef-4256-92ec-d03862d77c1a",
+        "cf1aaf37-d63a-41ff-bded-2b582b082cba",
         "b68d5425-092b-427d-b77a-72f9a0c1382e",
         "5e4bc65e-ecc3-4dc7-b011-058e0a416fee",
         "add9e7ff-4162-4ca5-97df-05507dda3ed4",

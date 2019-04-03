@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_pop_up_lp_done",
     "eventList": [
-        {
-            "id": "63a06c80-4215-4d1a-a61d-348e84c7c1f9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "72f46aaa-c4e6-4d68-8324-37a55e663521"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -24,6 +15,14 @@
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
             "propertyId": "1414e2a5-12e1-4402-ae9f-021ac27f4b51",
             "value": "\"Done\""
+        },
+        {
+            "id": "9c324edb-cbc3-453b-8bdd-14923f2bede1",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
+            "propertyId": "e9e1dd96-9978-42a9-a702-c42d35657d6d",
+            "value": "scr_bouton_pop_up_lp_done"
         }
     ],
     "parentObjectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",

@@ -12,6 +12,9 @@ if !instance_exists(obj_timing) and !obj_persistent.not_clickable
 	}
 	scr_set_avatar_pnj();
 }
-/*
 else if instance_exists(obj_timing)
-	marked = !marked;
+{
+	obj_persistent.pnj_selected = self;
+	scr_set_avatar_pnj();
+	scr_bouton_marked();
+}
