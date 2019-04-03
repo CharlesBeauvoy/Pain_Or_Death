@@ -1,1 +1,1 @@
-name = "Capricorne";
+name = "Bélier";
