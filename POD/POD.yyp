@@ -1351,6 +1351,14 @@
             }
         },
         {
+            "Key": "b64fd5fa-7ded-465b-9183-a257c8a5b183",
+            "Value": {
+                "id": "38881e23-73c1-4bd0-be15-ba39a012b46f",
+                "resourcePath": "objects\\obj_bouton_marked\\obj_bouton_marked.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b68d5425-092b-427d-b77a-72f9a0c1382e",
             "Value": {
                 "id": "0047bf3c-3d4a-41ec-aeb3-ace9ffcb938c",
@@ -1564,6 +1572,14 @@
                 "id": "e770c747-c16c-46df-a489-01da3c7bda1b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd8f70ef-64fa-46c2-9f25-65085d1451ac",
+            "Value": {
+                "id": "ab3262d9-09ef-4008-93dd-1e3b1dc5fa4e",
+                "resourcePath": "scripts\\scr_bouton_marked\\scr_bouton_marked.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1946,6 +1962,7 @@
         "f9f1af58-ad86-4438-ae9f-d52a50ae5e13",
         "f4f5bdc8-6dac-477e-93bc-aec26db866dd",
         "841a156b-e634-453e-aef8-ddd23d2464aa",
+        "cd8f70ef-64fa-46c2-9f25-65085d1451ac",
         "4f02ebeb-dbea-4292-b29d-1b064e93efe4",
         "aaf60417-461f-4923-83b7-b840d6681530",
         "57094615-07e1-48e6-8425-6639168e771e",

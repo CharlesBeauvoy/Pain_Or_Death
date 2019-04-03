@@ -16,6 +16,7 @@ if instance_exists(obj_pop_up_display)
 instance_destroy(obj_meta_bloc_text_bio);
 instance_destroy(obj_bouton_link_sup);
 instance_destroy(obj_bouton_link_secret);
+instance_destroy(obj_bouton_marked);
 with obj_bouton_pd_etiquette
 {
 	if clicked

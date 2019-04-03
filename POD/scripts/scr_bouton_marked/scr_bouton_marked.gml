@@ -1,0 +1,1 @@
+obj_persistent.pnj_selected.marked = true;
