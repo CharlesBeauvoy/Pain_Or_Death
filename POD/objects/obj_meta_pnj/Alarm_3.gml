@@ -4,7 +4,11 @@ watch_soul_count -= 1;
 if instance_exists(obj_bouton_pd_listen_dream) and obj_persistent.pnj_selected == self
 	obj_bouton_pd_listen_dream.timer.texte = watch_soul_count;
 if watch_soul_count > 0
+{
+	if watch_soul_count mod watch_soul_count_base == 0
+		scr_bouton_listen_dream_effect(self);
 	alarm[3] = room_speed;
+}
 else
 {
 	if instance_exists(obj_bouton_pd_listen_dream)
@@ -14,8 +18,5 @@ else
 	}
 	else
 		watch_soul_count = watch_soul_count_base;
-		
-	scr_watch_soul(self); // on devoile la nouvelle information
-	scr_gain_day(1); //on progresse d'une nuit
-	scr_infos_contexte("L'âme de "+self.name+" est connue");// on affiche du contexte
+	scr_bouton_listen_dream_effect(self);
 }
