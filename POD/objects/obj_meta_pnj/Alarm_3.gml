@@ -9,13 +9,13 @@ else
 {
 	if instance_exists(obj_bouton_pd_listen_dream)
 	{
-		with obj_bouton_pd_listen_dream
-			event_perform(ev_mouse, ev_left_release);
+		script_execute(obj_bouton_pd_listen_dream.script_left_released); // on deselectionne le bouton via son script
+		instance_destroy(obj_bouton_pd_listen_dream.timer); // on destruit le timer
 	}
 	else
 		watch_soul_count = watch_soul_count_base;
-	scr_watch_soul(self);
-	scr_infos_contexte("L'âme de "+self.name+" est connue");
-	instance_destroy(obj_bouton_pd_listen_dream.timer);
-	script_execute(obj_bouton_pd_listen_dream.script_left_released);
+		
+	scr_watch_soul(self); // on devoile la nouvelle information
+	scr_gain_day(1); //on progresse d'une nuit
+	scr_infos_contexte("L'âme de "+self.name+" est connue");// on affiche du contexte
 }

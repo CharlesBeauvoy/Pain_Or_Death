@@ -10,4 +10,5 @@ if !clicked
 	scr_loss_sang(50);
 	scr_set_pnj_bio(obj_persistent.pnj_selected.map_information_known,key, value);
 	obj_persistent.pnj_selected.info_known += 1;
+	scr_gain_day(1);
 }
