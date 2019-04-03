@@ -15,7 +15,8 @@
         "ff0252c3-2ff3-4499-b5db-e8590305ad8d",
         "523ab95e-4da7-4fe2-9b49-255c01cdafa5",
         "3aa90bc7-7d2c-41bc-b589-53f4b70c30f0",
-        "71578f4a-6b51-4e2c-b351-ff464ef19c8f"
+        "71578f4a-6b51-4e2c-b351-ff464ef19c8f",
+        "d762cd98-8424-4ea2-8dbc-9d03550d7695"
     ],
     "filterType": "GMSprite",
     "folderName": "spr_signe_astro",

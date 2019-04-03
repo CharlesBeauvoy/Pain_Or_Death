@@ -1055,6 +1055,14 @@
             }
         },
         {
+            "Key": "95211dab-21d9-4b98-bc12-ac5ba2a79c9e",
+            "Value": {
+                "id": "1122eddf-70a1-4a27-b62d-057266278ade",
+                "resourcePath": "objects\\obj_signe_serpentaire\\obj_signe_serpentaire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "983bc55f-e422-4055-832d-a9b5d886cc52",
             "Value": {
                 "id": "fee27d20-8f9f-4480-a177-93887cb1e08c",
@@ -1604,6 +1612,14 @@
                 "id": "49edb4a4-b5c0-4133-a995-b96fd6f30cbe",
                 "resourcePath": "objects\\obj_signe_bottom\\obj_signe_bottom.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d762cd98-8424-4ea2-8dbc-9d03550d7695",
+            "Value": {
+                "id": "d6b5f28e-6974-40e3-9dbf-9929018435d5",
+                "resourcePath": "sprites\\spr_signe_serpentaire\\spr_signe_serpentaire.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

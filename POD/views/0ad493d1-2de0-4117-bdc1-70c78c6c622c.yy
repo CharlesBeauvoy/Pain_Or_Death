@@ -15,7 +15,8 @@
         "f7ccdb18-4561-426e-93e8-4b49ef86eb65",
         "34405013-6f78-43c2-a84a-feed0593dfcb",
         "b534cd08-543c-4286-ad31-edf25a9adf4e",
-        "4cd8f8d4-a34b-4b59-abda-26e8a7f8304b"
+        "4cd8f8d4-a34b-4b59-abda-26e8a7f8304b",
+        "95211dab-21d9-4b98-bc12-ac5ba2a79c9e"
     ],
     "filterType": "GMObject",
     "folderName": "obj_signe_astro",
