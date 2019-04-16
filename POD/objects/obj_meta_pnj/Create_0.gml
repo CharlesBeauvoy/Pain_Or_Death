@@ -31,8 +31,8 @@ sprite_index = spr_pnj_unknown;
 
 bio_height = 0;
 
-watch_soul_count = 5;
-watch_soul_count_base = 5;
+watch_soul_count = 1;
+watch_soul_count_base = 1;
 info_known = 0;
 listen_dream_count = 30;
 
