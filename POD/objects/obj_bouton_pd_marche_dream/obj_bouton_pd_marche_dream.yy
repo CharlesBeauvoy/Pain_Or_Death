@@ -1,52 +1,42 @@
 {
-    "id": "611dff50-4e0d-421f-b792-65b0cd2b5723",
+    "id": "1f77a98a-693d-47c8-ab26-5ec03ab2d6de",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_bouton_pd_listen_dream",
+    "name": "obj_bouton_pd_marche_dream",
     "eventList": [
         {
-            "id": "1f90f8aa-2acb-490d-8724-70709616adc0",
+            "id": "67286d0a-eab7-4e90-8b02-a6f782a285cc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 69,
+            "enumb": 87,
             "eventtype": 10,
-            "m_owner": "611dff50-4e0d-421f-b792-65b0cd2b5723"
+            "m_owner": "1f77a98a-693d-47c8-ab26-5ec03ab2d6de"
         },
         {
-            "id": "72f210cf-599f-4ec9-a470-936cb312021c",
+            "id": "b9680398-7203-4793-a1c0-2bb4b6cfd8a0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "611dff50-4e0d-421f-b792-65b0cd2b5723"
-        },
-        {
-            "id": "14979d80-b6c3-4fed-afa5-4a329c328e7d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "611dff50-4e0d-421f-b792-65b0cd2b5723"
+            "m_owner": "1f77a98a-693d-47c8-ab26-5ec03ab2d6de"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "33a560b5-0101-4b51-9216-597bbc60adba",
+            "id": "6d576921-2003-4b10-9120-e77ab6545c41",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
             "propertyId": "1414e2a5-12e1-4402-ae9f-021ac27f4b51",
-            "value": "\"E - Ecouter les rêves\""
+            "value": "\"W - Marcher dans les rêves\""
         },
         {
-            "id": "867274ee-32d3-430d-95ca-64ec46adef88",
+            "id": "cbc031e5-1756-4c29-8655-d9681e5fe75d",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
@@ -54,12 +44,12 @@
             "value": "fnt_bouton_panel_droit"
         },
         {
-            "id": "a658577d-8de0-4b83-8c13-f6f17d564dc8",
+            "id": "6fd860a4-d78f-4fd1-b4df-27118f50841b",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
             "propertyId": "e9e1dd96-9978-42a9-a702-c42d35657d6d",
-            "value": "scr_bouton_listen_dream"
+            "value": "scr_bouton_marche_dream"
         }
     ],
     "parentObjectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",

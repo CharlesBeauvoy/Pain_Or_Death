@@ -1,6 +1,6 @@
 font = fnt_pop_up_bio;
 window_set_cursor(cr_default);
-if obj_persistent.pnj_hovered != noone
+if obj_persistent.pnj_hovered != noone and instance_exists(obj_persistent.pnj_hovered)
 {
 	obj_persistent.pnj_hovered.image_xscale = 1;
 	obj_persistent.pnj_hovered.image_yscale = 1;

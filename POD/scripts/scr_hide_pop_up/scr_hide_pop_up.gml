@@ -26,3 +26,4 @@ instance_destroy(obj_bouton_pd_etiquette);
 instance_destroy(obj_timer_feature);
 instance_destroy(obj_bouton_pd_watch_soul);
 instance_destroy(obj_bouton_pd_listen_dream);
+instance_destroy(obj_bouton_pd_marche_dream);

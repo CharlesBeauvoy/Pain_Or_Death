@@ -1,4 +1,4 @@
-scr_gain_sang(gain_sang);
+//scr_gain_sang(gain_sang);
 
 for(var i=0; i<ds_list_size(list_relation);i++)
 {
@@ -16,6 +16,10 @@ if self == obj_persistent.pnj_selected
 {
 	instance_destroy(obj_pop_up_display);
 	scr_hide_pop_up();
+}
+if self == obj_persistent.pnj_hovered
+{
+	obj_persistent.pnj_hovered = noone;
 }
 ds_list_destroy(list_relation);
 ds_list_destroy(list_relation_weigth);
