@@ -74,7 +74,7 @@
             "value": "fnt_bouton_panel_droit"
         }
     ],
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "ac53470c-d7ff-44b2-8141-24b44b5c29d2",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

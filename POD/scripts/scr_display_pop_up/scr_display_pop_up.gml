@@ -11,7 +11,7 @@ var layer_id = layer_get_id("Instances_panel_droit");
 
 var pop_up_bg = instance_create_layer(obj_persistent.gui_width-sprite_get_width(spr_panel_selection_pnj)/2,0,layer_id,obj_pop_up_bg);
 instance_destroy(obj_pop_up_display);
-var pop_up_quit = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2,50,layer_id,obj_pop_up_display);
+var pop_up_quit = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2,15,layer_id,obj_pop_up_display);
 
 //var pop_up_name = instance_create_layer(pop_up_bg.x,pop_up_bg.y+50,layer_id,obj_pop_up_name_pnj);
 //pop_up_name.texte = argument0.name;
@@ -21,7 +21,7 @@ pop_up_quit.depth -= 2;
 
 if argument1 == true
 {
-	var bouton_pd_ws = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,pop_up_bg.y+100,layer_id,obj_bouton_pd_listen_dream);
+	var bouton_pd_ws = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,obj_pop_up_display.y+30,layer_id,obj_bouton_pd_listen_dream);
 	var bouton_pd_ld = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,obj_bouton_pd_listen_dream.y+50,layer_id,obj_bouton_pd_watch_soul);
 	var bouton_pd_md = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,obj_bouton_pd_watch_soul.y+50,layer_id,obj_bouton_pd_marche_dream);
 	var bouton_pd_etiquette = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,obj_bouton_pd_marche_dream.y+50,layer_id,obj_bouton_pd_etiquette);

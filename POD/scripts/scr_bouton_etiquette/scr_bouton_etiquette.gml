@@ -21,8 +21,7 @@ with obj_bouton_pd_etiquette
 		obj_persistent.not_clickable = false;
 		color = c_white;
 		image_blend = c_black;
-		instance_destroy(obj_bouton_pd_etiquette_sexe);
-		instance_destroy(obj_bouton_pd_etiquette_age);
+		instance_destroy(obj_meta_titre_etiquette);
 		with obj_meta_etiquette
 		{
 			if pnj_linked == noone

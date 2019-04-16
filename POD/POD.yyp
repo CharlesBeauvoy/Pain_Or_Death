@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0665fb64-02ba-428e-8c2b-ab7080ecf8c3",
+            "Value": {
+                "id": "a9977a25-521c-4bdf-a5ab-bceb8bb39bdb",
+                "resourcePath": "views\\0665fb64-02ba-428e-8c2b-ab7080ecf8c3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "078f3f59-ba7a-468f-adf7-1022e3da83e0",
             "Value": {
                 "id": "6809eb7d-448d-456c-ba62-d034f7ddb585",
@@ -100,6 +108,14 @@
                 "id": "4970a56a-cfa2-4f2f-adeb-c87f7730e616",
                 "resourcePath": "fonts\\fnt_text\\fnt_text.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "09a613fd-49a0-49f3-a0f8-631f64b89a18",
+            "Value": {
+                "id": "14e26d5d-fb31-4e34-8e0f-2d870277f505",
+                "resourcePath": "objects\\obj_etiquette_metier_1\\obj_etiquette_metier_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -383,6 +399,14 @@
             }
         },
         {
+            "Key": "2ec04b4d-34f3-492a-8555-423bc02eec9e",
+            "Value": {
+                "id": "5b78d1b5-60ef-45a0-9cdf-c068396434e3",
+                "resourcePath": "objects\\obj_etiquette_metier_2\\obj_etiquette_metier_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ef6518f-f99e-49d7-94be-4b9735b65a4c",
             "Value": {
                 "id": "a3c3d6d4-8bae-40f2-9bdc-d29d6f68ea1e",
@@ -459,6 +483,14 @@
             "Value": {
                 "id": "d2e645a4-3d3e-4716-9be3-662877b4c6be",
                 "resourcePath": "objects\\obj_signe_sagittaire\\obj_signe_sagittaire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "34c42c8d-e48e-4c1d-8694-be54051dbc68",
+            "Value": {
+                "id": "6af614fd-0ed0-491e-a612-e8c263ca889c",
+                "resourcePath": "objects\\obj_etiquette_lieu_2\\obj_etiquette_lieu_2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -655,6 +687,14 @@
             }
         },
         {
+            "Key": "4f1f81ea-0ef7-4ca1-adb8-33d200d58829",
+            "Value": {
+                "id": "3c452606-e22d-40ee-b913-e7ed96acbdf0",
+                "resourcePath": "objects\\obj_bouton_pd_etiquette_lieu\\obj_bouton_pd_etiquette_lieu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4f4df8e5-2d08-4908-82dc-e75d306d2fb6",
             "Value": {
                 "id": "de90c330-4dae-4416-abab-ba212d812d4c",
@@ -847,6 +887,14 @@
             }
         },
         {
+            "Key": "6180de73-b834-4306-b3e7-7a11f06d270a",
+            "Value": {
+                "id": "72f5c63d-9b22-4507-8c78-0b498df2ac12",
+                "resourcePath": "objects\\obj_etiquette_lieu_1\\obj_etiquette_lieu_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "627598f0-88e0-4872-b11a-0510dab8e6f2",
             "Value": {
                 "id": "0c3a84ba-27d8-448d-96cf-350209949cb7",
@@ -972,6 +1020,22 @@
                 "id": "1c090276-ab94-4c4c-b352-f93ed90d1c93",
                 "resourcePath": "views\\7190a2cf-72bb-41b0-b481-544424a100a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7193fdfc-aa15-48e7-88d1-51c58a1bdd05",
+            "Value": {
+                "id": "76671396-fa3b-40e6-a53d-2e2a3704d750",
+                "resourcePath": "views\\7193fdfc-aa15-48e7-88d1-51c58a1bdd05.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "72a16c5c-5945-4860-8c73-3ca6fe382a70",
+            "Value": {
+                "id": "30cd6518-04aa-4066-b8e1-c58414644aeb",
+                "resourcePath": "sprites\\spr_etiquette_metier_1\\spr_etiquette_metier_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1287,6 +1351,14 @@
             }
         },
         {
+            "Key": "9abfe8f7-9701-4284-a4da-d83d5952a862",
+            "Value": {
+                "id": "1eab88ac-bfe7-478f-a6e6-b6b6d0cc624a",
+                "resourcePath": "views\\9abfe8f7-9701-4284-a4da-d83d5952a862.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9b669006-270e-49ba-bd3b-25aa8e7d4961",
             "Value": {
                 "id": "ef7831be-c535-4805-a690-51c4f75715e3",
@@ -1423,6 +1495,14 @@
             }
         },
         {
+            "Key": "ac53470c-d7ff-44b2-8141-24b44b5c29d2",
+            "Value": {
+                "id": "e2159988-6d68-48a6-a076-95746e4a5efa",
+                "resourcePath": "objects\\obj_meta_titre_etiquette\\obj_meta_titre_etiquette.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ac58d23a-e6f0-4bd1-bd44-9dc80dc6de99",
             "Value": {
                 "id": "bab8e4ae-5c29-4397-ae92-123badd0c67e",
@@ -1527,6 +1607,14 @@
             }
         },
         {
+            "Key": "b5503233-31d7-4622-8ba2-e23f68b58d40",
+            "Value": {
+                "id": "c9e912e0-1d1b-452e-8bd4-e53d2542cea9",
+                "resourcePath": "views\\b5503233-31d7-4622-8ba2-e23f68b58d40.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b621e134-34c4-445f-a6aa-e1893d7691d3",
             "Value": {
                 "id": "1eac67f3-2f37-4759-a34e-be1ad46b4b8b",
@@ -1620,6 +1708,14 @@
                 "id": "94aaa5ed-cc28-4139-ad20-f75ae7f9e3aa",
                 "resourcePath": "views\\bb6fae76-4a6e-496c-b33a-b1e0549ce82a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bbf599b4-0383-4cc0-a8ad-4767cb1f2b8e",
+            "Value": {
+                "id": "4cf9fad9-8637-4c23-ae3e-9038ea8862c4",
+                "resourcePath": "sprites\\spr_etiquette_lieu_1\\spr_etiquette_lieu_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1839,6 +1935,14 @@
             }
         },
         {
+            "Key": "d42a27f1-14b9-4c94-b2d6-d7e316c484d6",
+            "Value": {
+                "id": "5354e0b1-a815-466f-ae43-403f7e72eb9a",
+                "resourcePath": "sprites\\spr_etiquette_lieu_2\\spr_etiquette_lieu_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d464f9f3-1c31-4b51-a976-693ca17e20e4",
             "Value": {
                 "id": "632dfe4f-57a0-4c55-a86a-f5a93ccab1b3",
@@ -1940,6 +2044,14 @@
                 "id": "4d0fef57-f584-47fa-8bef-7ea889e134d4",
                 "resourcePath": "objects\\obj_pnj_Denver\\obj_pnj_Denver.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e55b6fd2-777b-47b4-a9e5-689d6da45355",
+            "Value": {
+                "id": "fdeb821a-439a-4811-aff6-cc787877a1fa",
+                "resourcePath": "views\\e55b6fd2-777b-47b4-a9e5-689d6da45355.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2103,11 +2215,27 @@
             }
         },
         {
+            "Key": "f8661394-2fc3-4833-b6a6-7314d7d28e20",
+            "Value": {
+                "id": "96b3b009-0faf-430a-8ee9-8c2a404aec6d",
+                "resourcePath": "objects\\obj_bouton_pd_etiquette_metier\\obj_bouton_pd_etiquette_metier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f8ab7f06-7af1-4172-93bc-643620c7bdc8",
             "Value": {
                 "id": "2679b451-4900-4db8-9ab5-6e7b272e3f4f",
                 "resourcePath": "scripts\\scr_zoom\\scr_zoom.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f9788794-240b-4c56-9d41-c9ec53767e7e",
+            "Value": {
+                "id": "a3ff06c1-1ca8-4583-aee5-44e4a435d256",
+                "resourcePath": "sprites\\spr_etiquette_metier_2\\spr_etiquette_metier_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
