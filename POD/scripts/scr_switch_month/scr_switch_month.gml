@@ -6,9 +6,9 @@ obj_month.signe.name = ds_list_find_value(obj_month.sign_name_list,obj_month.mon
 
 with obj_meta_pnj
 {
-	signe.image_blend = c_white;
-	if obj_month.signe.sprite_index == signe.sprite_index// and visited
-		signe.image_blend = c_red;
+	self.signe.image_blend = c_white;
+	if obj_month.signe.sprite_index == self.signe.sprite_index// and visited
+		self.signe.image_blend = c_red;
 }
 
 if obj_month.month >= ds_list_size(obj_month.sign_name_list)

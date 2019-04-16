@@ -3,7 +3,7 @@ if !instance_exists(obj_timing) and !obj_persistent.not_clickable
 	if visited == false and !instance_exists(obj_timing)
 	{
 		scr_hide_pop_up();
-		scr_display_pop_up(self,false);
+		scr_display_pop_up(self,true);
 	}
 	else if visited
 	{
