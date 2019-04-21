@@ -1,5 +1,8 @@
 randomize();
 
+var str = scr_open_txt_file_str("pnj_bio_relations.json");
+theMap = json_decode(str);
+
 last_infos_contexte = noone;
 
 not_clickable = false;

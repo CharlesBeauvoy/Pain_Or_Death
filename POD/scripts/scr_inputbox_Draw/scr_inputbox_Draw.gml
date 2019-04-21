@@ -25,6 +25,9 @@ if (hidden == true)
 else
 {draw_set_font(fnt_bouton_panel_droit);}
 
+draw_set_halign(fa_middle);
+draw_set_valign(fa_center);
+
 if (selected == true)
 {
 	if (drawboxfill == true)
@@ -37,7 +40,8 @@ if (selected == true)
 	{draw_rectangle_colour(left+xoffset,top+yoffset,left+xoffset+string_width(displaytext),top+yoffset+string_height(displaytext),highlightcolour,highlightcolour,highlightcolour,highlightcolour,0);}
 	
 	draw_set_colour(textselectedcolour);
-	draw_text(left+xoffset,top+yoffset,displaytext+vbar);
+	draw_text(x,y,displaytext+vbar);
+	//draw_text(left+xoffset,top+yoffset,displaytext+vbar);
 }
 else
 {
@@ -48,5 +52,8 @@ else
 	{draw_rectangle_colour(left,top,right,bottom,boxunselectedcolour,boxunselectedcolour,boxunselectedcolour,boxunselectedcolour,1);}
 	
 	draw_set_colour(textunselectedcolour);
-	draw_text(left+xoffset,top+yoffset,displaytext);
+	draw_text(x,y,displaytext);
+	//draw_text(left+xoffset,top+yoffset,displaytext);
 }
+draw_set_halign(fa_top);
+draw_set_valign(fa_left);

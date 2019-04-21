@@ -9,7 +9,7 @@ if (selected == true)
 	{
 		keyboard_string = string_delete(keyboard_string,string_length(keyboard_string),1);
 		selectall = false;
-	}/*
+	}
 	if (selectall == true)
 	{
 		if keyboard_check_pressed(vk_backspace)
@@ -17,7 +17,7 @@ if (selected == true)
 			keyboard_string = string_delete(keyboard_string,string_length(keyboard_string),1);
 			selectall = false;
 		}
-		/*else
+		else
 		{
 			if (keyboard_check_pressed(vk_anykey)) and string_length(keyboard_string) < 3
 			{
@@ -27,7 +27,7 @@ if (selected == true)
 					selectall = false;
 				}
 			}
-		}*/
+		}
 	}
 	
 	//select all
@@ -35,7 +35,7 @@ if (selected == true)
 	{selectall = true;}
 
 	//limit input
-	/*if (hidden == true)
+	if (hidden == true)
 	{
 		draw_set_font(hiddenfont);
 		if (string_width(string_repeat(hiddensymbol,string_length(keyboard_string))) > maxwidth)
@@ -46,17 +46,15 @@ if (selected == true)
 		draw_set_font(font);
 		if (string_width(keyboard_string) > maxwidth)
 		{keyboard_string = string_copy(keyboard_string,1,string_length(keyboard_string)-1);}
-	}*/
+	}
 
 	//take input
 	text = keyboard_string;
 	
 	//hide text
 	
-	/*if (hidden == true)
-	{displaytext = string_repeat(hiddensymbol,string_length(text));}
+	if (hidden == true)
+		displaytext = string_repeat(hiddensymbol,string_length(text));
 	else
-	{*/
 		displaytext = text;
-		//}
-//}
+}

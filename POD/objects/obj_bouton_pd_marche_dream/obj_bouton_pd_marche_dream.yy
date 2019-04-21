@@ -33,7 +33,7 @@
             "mvc": "1.0",
             "objectId": "c7657264-e9d5-4a39-b4ba-2535d0f6cd4c",
             "propertyId": "1414e2a5-12e1-4402-ae9f-021ac27f4b51",
-            "value": "\"W - Marcher dans les rêves\""
+            "value": "\"W - Marcher les rêves\""
         },
         {
             "id": "cbc031e5-1756-4c29-8655-d9681e5fe75d",

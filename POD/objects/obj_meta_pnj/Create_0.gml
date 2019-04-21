@@ -38,3 +38,6 @@ listen_dream_count = 30;
 
 signe = instance_create_layer(x,y,"Instances_selection_pnj",signe);
 //signe.visible = false;
+
+map_relation = ds_map_create();
+scr_load_pnj_relation(name, object_index);

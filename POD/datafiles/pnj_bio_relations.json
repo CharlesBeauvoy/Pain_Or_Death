@@ -1,76 +1,15 @@
-{  
-   {
-     "nom":"Denver",
-	 "texte_initial":"Il aime Monica et son père Moscou.",
-	 "pnj_lien":[
-         "Monica",
-         "Moscou"
-      ],
-	  "pnj_supp_1":[
-         "Berlin","Il obéit directement à Berlin." 
-      ],
-	  "pnj_secret_1":[
-         "Arturo","Il déteste Arturo."
-      ],
-	  "NB_SUPP":1,
-	  "NB_SECRET":1
-   },
-   {
-     "nom":"Moscou",
-	 "texte_initial":"Il aime Monica et son père Moscou.",
-	 "pnj_lien":[
-         "Monica",
-         "Moscou"
-      ],
-	  "NB_SUPP":0,
-	  "NB_SECRET":0
-   },
-   {
-     "nom":"Berlin",
-	 "texte_initial":"Il aime Monica et son père Moscou.",
-	 "pnj_lien":null,
-	  "NB_SUPP":0,
-	  "NB_SECRET":0
-   },
-   {
-     "nom":"Monica",
-	 "texte_initial":"Il aime Monica et son père Moscou.",
-	 "pnj_lien":[
-         "Monica",
-         "Moscou"
-      ],
-	  "NB_SUPP":0,
-	  "NB_SECRET":0
-   },
-   {
-     "nom":"Arturo",
-	 "texte_initial":"Il aime Monica et son père Moscou.",
-	 "pnj_lien":[
-         "Monica",
-         "Moscou"
-      ],
-	  "NB_SUPP":0,
-	  "NB_SECRET":0
-   },
-   {
-     "nom":"Oslo",
-	 "texte_initial":"Il aime Monica et son père Moscou.",
-	 "pnj_lien":[
-         "Monica",
-         "Moscou"
-      ],
-	  "NB_SUPP":0,
-	  "NB_SECRET":0
-   },
-   {
-     "nom":"Helsinki",
-	 "texte_initial":"Il aime Monica et son père Moscou.",
-	 "pnj_lien":[
-         "Monica",
-         "Moscou"
-      ],
-	  "NB_SUPP":0,
-	  "NB_SECRET":0
-   },
-   
+{
+ "Denver":{
+	 "texte_initial":"Il aime Monica et son père Moscou",
+	 "Monica":[
+			"Amour",
+			"2",
+			"Denver est tombé amoureux de Monica pendant le bracage d'ITycom"
+	],
+	 "Moscou":[
+			"Famille",
+			"3",
+			"Denver a toujours eu de bonnes relations avec Moscou son père"
+	 ]
+	} 
 }

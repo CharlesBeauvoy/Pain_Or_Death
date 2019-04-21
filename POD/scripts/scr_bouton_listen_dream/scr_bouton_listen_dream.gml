@@ -4,8 +4,7 @@ with obj_bouton_pd_listen_dream
 		return scr_infos_contexte("Toute l'âme de "+obj_persistent.pnj_selected.name+" est découverte");
 	if !clicked
 	{
-		if obj_bouton_pd_watch_soul.clicked
-			script_execute(obj_bouton_pd_watch_soul.script_left_released);
+		scr_close_bouton();
 		color = c_black;
 		image_blend = c_white;
 		

@@ -239,6 +239,20 @@
             "value": "\"La bas\"",
             "varName": "lieu",
             "varType": 2
+        },
+        {
+            "id": "aa9bbc6e-89d3-4668-8a94-52fe70b72a1b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "texte_initial",
+            "varType": 2
         }
     ],
     "solid": false,

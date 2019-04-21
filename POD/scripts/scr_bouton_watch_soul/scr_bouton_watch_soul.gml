@@ -5,8 +5,7 @@ with obj_bouton_pd_watch_soul
 
 	if !clicked
 	{
-		if obj_bouton_pd_listen_dream.clicked
-			script_execute(obj_bouton_pd_listen_dream.script_left_released);
+		scr_close_bouton();
 		color = c_black;
 		image_blend = c_white;
 		var index = 0;
