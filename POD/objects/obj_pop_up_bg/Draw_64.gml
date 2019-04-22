@@ -43,12 +43,11 @@ for(var j=0;j<ds_list_size(obj_persistent.pnj_selected.clef_relation);j++)
 		{
 			var tmp_texte = "";
 			for(var i=0; i<ds_list_size(obj_relation.list_data);i++)
-			{
 				tmp_texte += string(ds_list_find_value(obj_relation.list_data,i))+ "/ ";
-			}
+				
 			draw_text_ext(x-sprite_width/2+75,hauteur,tmp_texte,30,sprite_width-100);
 			hauteur += string_height(tmp_texte);
 		}
-		hauteur += 40;
+		hauteur += 50;
 	}
 }

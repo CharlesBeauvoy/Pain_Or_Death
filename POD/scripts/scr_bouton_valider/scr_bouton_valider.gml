@@ -24,12 +24,30 @@ else
 			return scr_infos_contexte("Vous devez rentrer une valeur entre 1 et 100");
 			
 		//X% de chance d'avoir une info sur un LIEN ou une variable de l'être aimé
+		var rdm_index = irandom_range(0,ds_list_size(obj_persistent.pnj_selected.clef_relation)-1);
+		var rdm_clef = ds_list_find_value(obj_persistent.pnj_selected.clef_relation, rdm_index);
+		var rdm_relation = ds_map_find_value(obj_persistent.pnj_selected.map_relation,rdm_clef);
+		rdm_relation.unknown = false;
+		///----- connaitre la nature ------///
+		if !rdm_relation.nom_relation_known
+		{
+			rdm_relation.nom_relation_known = true;
+			ds_list_add(rdm_relation.list_data,rdm_relation.nom_relation);
+			if !rdm_relation.pnj_relation_known
+				scr_infos_contexte(obj_persistent.pnj_selected.name+" a un relation de type : "+rdm_relation.nom_relation);
+			else if rdm_relation.pnj_relation_known
+				scr_infos_contexte(obj_persistent.pnj_selected.name+" a un relation de type : "+rdm_relation.nom_relation+" avec "+rdm_clef);
+		}
+		
+		
+		if rdm_relation.nom_relation_known and rdm_relation.pnj_relation_known and rdm_relation.force_relation_known
+			rdm_relation.fully_known = true;
 		
 		//X/4% de le tourmenter
 		var rdm = irandom_range(0,100);
 		if rdm <= real(obj_InputBox.displaytext)/4
 		{
-			scr_infos_contexte("Vous avez fait tourmenté "+obj_persistent.pnj_selected.name);
+			scr_infos_contexte("Vous avez tourmenté "+obj_persistent.pnj_selected.name);
 			scr_gain_souffrance(20);
 		}
 	}

@@ -1,2 +1,2 @@
-/// @description Unselect
-scr_inputbox_unselect();
+with obj_bouton_valider
+	script_execute(script_left_released);
