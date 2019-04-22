@@ -44,3 +44,4 @@ for(var i=0; i < ds_map_size(map_relation); i++)
 	key = ds_map_find_next(map_relation, key);
 }
 ds_map_destroy(map_relation);
+ds_list_destroy(list_relation);

@@ -40,4 +40,5 @@ signe = instance_create_layer(x,y,"Instances_selection_pnj",signe);
 //signe.visible = false;
 
 map_relation = ds_map_create();
+clef_relation = ds_list_create();
 scr_load_pnj_relation(name, object_index);

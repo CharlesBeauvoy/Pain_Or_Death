@@ -20,7 +20,7 @@ else
 {
 	with obj_bouton_pd_marche_dream
 	{
-		if obj_InputBox.displaytext == "" or real(obj_InputBox.displaytext) > 100 
+		if obj_InputBox.displaytext == "" or real(obj_InputBox.displaytext) > 100 or real(obj_InputBox.displaytext) <= 0
 			return scr_infos_contexte("Vous devez rentrer une valeur entre 1 et 100");
 			
 		//X% de chance d'avoir une info sur un LIEN ou une variable de l'être aimé
@@ -28,6 +28,9 @@ else
 		//X/4% de le tourmenter
 		var rdm = irandom_range(0,100);
 		if rdm <= real(obj_InputBox.displaytext)/4
+		{
+			scr_infos_contexte("Vous avez fait tourmenté "+obj_persistent.pnj_selected.name);
 			scr_gain_souffrance(20);
+		}
 	}
 }

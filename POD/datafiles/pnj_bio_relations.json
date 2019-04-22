@@ -11,5 +11,68 @@
 			"3",
 			"Denver a toujours eu de bonnes relations avec Moscou son père"
 	 ]
-	} 
+	},
+"Moscou":{
+	 "texte_initial":"Il est gentil",
+	 "Denver":[
+			"Famille",
+			"3",
+			"Denver est son fils"
+	 ]
+	},
+"Monica":{
+	 "texte_initial":"Elle est blonde",
+	 "Denver":[
+			"Amour",
+			"3",
+			"Denver est son amant"
+	 ],
+	 "Arthuro":[
+			"Amour",
+			"1",
+			"Elle couche avec Arthuro"
+	 ]
+	},
+"Arthuro":{
+	 "texte_initial":"Il est gras",
+	 "Monica":[
+			"Amour",
+			"2",
+			"Monica est son amante"
+	 ]
+	},
+"Berlin":{
+	 "texte_initial":"Il est méchant et gentil"
+	},
+"Oslo":{
+	 "texte_initial":"Il est gros et musclé",
+	 "Berlin":[
+			"Hierarchie",
+			"2",
+			"Berlin est son boss"
+	 ],
+	 "Helsinki":[
+			"Famille",
+			"3",
+			"Helsinki est son frère"
+	 ]
+	},
+"Helsinki":{
+	 "texte_initial":"Il est gros et musclé",
+	 "Berlin":[
+			"Hierarchie",
+			"2",
+			"Berlin est son boss"
+	 ],
+	 "Oslo":[
+			"Famille",
+			"3",
+			"Oslo est son frère"
+	 ],
+	 "Arthuro":[
+			"Ami",
+			"1",
+			"Arthuro est son poto"
+	 ]
+	}
 }
