@@ -1,3 +1,6 @@
+if obj_persistent.button_selected != noone
+	return -1;
+
 if !instance_exists(obj_timing) and !obj_persistent.not_clickable
 {
 	if visited == false and !instance_exists(obj_timing)
