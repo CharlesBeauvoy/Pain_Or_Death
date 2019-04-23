@@ -6,6 +6,7 @@ if obj_persistent.pnj_ghosted != self
 		ds_list_add(list_relation_weigth_sup,2);
 		ds_list_add(list_relation_sup_text,"");
 		draw_ghost_arrow = false;
+		depth += 100;
 	}
 	obj_persistent.pnj_ghosted = noone;
 }
@@ -17,6 +18,7 @@ else
 
 if !obj_persistent.not_clickable and obj_persistent.pnj_selected == self and !obj_persistent.pnj_ghosted
 {
+	depth -= 100;
 	draw_ghost_arrow = true;
 	obj_persistent.pnj_ghosted = self
 }

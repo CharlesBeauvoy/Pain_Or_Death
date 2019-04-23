@@ -1,6 +1,9 @@
 if obj_persistent.button_selected != noone
 	return -1;
 
+with obj_meta_pnj
+	draw_ghost_arrow = false;
+
 if !instance_exists(obj_timing) and !obj_persistent.not_clickable
 {
 	if visited == false and !instance_exists(obj_timing)
