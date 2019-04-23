@@ -1,1 +1,1 @@
-scr_gain_day(1);
+scr_gain_day(3);
