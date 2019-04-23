@@ -31,7 +31,7 @@
             "mvc": "1.0",
             "objectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",
             "propertyId": "fc6d3732-adce-4989-822c-bc90cec258a9",
-            "value": "obj_signe_verseau"
+            "value": "obj_signe_belier"
         }
     ],
     "parentObjectId": "edcca1da-0a0a-4e81-8a1e-de1e4e74617e",

@@ -167,14 +167,6 @@
             }
         },
         {
-            "Key": "0e7e9c31-be0a-4f02-872e-ffe5ea56f0d5",
-            "Value": {
-                "id": "d7a76f73-e6b9-459c-a676-39dcfeaa0aa0",
-                "resourcePath": "objects\\obj_CapsLockCheck\\obj_CapsLockCheck.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "10391e63-4ddd-4a3e-9b47-f97c68579852",
             "Value": {
                 "id": "6c3208a3-d32b-42c7-9cee-a32537634001",

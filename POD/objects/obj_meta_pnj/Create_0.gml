@@ -35,6 +35,11 @@ listen_dream_count = 30;
 
 signe = instance_create_layer(x,y,"Instances_selection_pnj",signe);
 signe.visible = false;
+if obj_month.signe.sprite_index == signe.sprite_index// and visited
+{
+	signe.visible = true;
+	signe.image_blend = c_red;
+}
 
 map_relation = ds_map_create();
 clef_relation = ds_list_create();
