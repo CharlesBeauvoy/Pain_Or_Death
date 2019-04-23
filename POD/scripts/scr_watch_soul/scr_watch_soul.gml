@@ -10,6 +10,8 @@ if rdm_value == "inconnu"
 {
 	var val = variable_instance_get(argument0,rdm_key);
 	scr_set_pnj_bio(argument0.map_information_known,rdm_key, val);
+	if rdm_key == "signe"
+		argument0.signe.visible = true;
 }
 else
 {
@@ -21,6 +23,8 @@ else
 	}
 	var val = variable_instance_get(argument0,rdm_key);
 	scr_set_pnj_bio(argument0.map_information_known,rdm_key, val);
+	if rdm_key == "signe"
+		argument0.signe.visible = true;
 }
 
 argument0.info_known += 1;

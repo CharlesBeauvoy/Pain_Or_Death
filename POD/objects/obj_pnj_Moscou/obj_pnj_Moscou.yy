@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_pnj_Moscou",
     "eventList": [
-        {
-            "id": "47ee91a7-79d7-4d82-9559-bf6d851d1c6f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6b1ecaaf-daa2-4a78-8ece-1f7e41a59355"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

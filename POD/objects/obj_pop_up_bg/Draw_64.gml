@@ -46,8 +46,8 @@ for(var j=0;j<ds_list_size(obj_persistent.pnj_selected.clef_relation);j++)
 				tmp_texte += string(ds_list_find_value(obj_relation.list_data,i))+ "/ ";
 				
 			draw_text_ext(x-sprite_width/2+75,hauteur,tmp_texte,30,sprite_width-100);
-			hauteur += string_height(tmp_texte);
+			hauteur += string_height_ext(tmp_texte,30,sprite_width-100);
 		}
-		hauteur += 50;
+		hauteur += 20;
 	}
 }

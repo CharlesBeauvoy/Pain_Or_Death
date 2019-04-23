@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_pnj_Oslo",
     "eventList": [
-        {
-            "id": "a768e507-8cd3-4707-864b-437e49910e2d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "8a7ccd34-5027-479b-8fa1-09312409bd71"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

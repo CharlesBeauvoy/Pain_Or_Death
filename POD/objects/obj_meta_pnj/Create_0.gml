@@ -2,13 +2,9 @@ list_relation = ds_list_create();
 list_relation_weigth = ds_list_create();
 list_relation_text = ds_list_create();
 
-list_relation_sup = ds_stack_create();
-list_relation_weigth_sup = ds_stack_create();
-list_relation_sup_text = ds_stack_create();
-
-list_relation_secret = ds_stack_create();
-list_relation_weigth_secret = ds_stack_create();
-list_relation_secret_text = ds_stack_create();
+list_relation_sup = ds_list_create();
+list_relation_weigth_sup = ds_list_create();
+list_relation_sup_text = ds_list_create();
 
 map_information_known = ds_map_create();
 ds_map_add(map_information_known,"name","inconnu");
@@ -22,6 +18,7 @@ list_etiquette = ds_list_create();
 
 draw_pop_up_link = false;
 draw_relation_link = false;
+draw_ghost_arrow = false;
 
 visited = false;
 known = false;
@@ -37,7 +34,7 @@ info_known = 0;
 listen_dream_count = 30;
 
 signe = instance_create_layer(x,y,"Instances_selection_pnj",signe);
-//signe.visible = false;
+signe.visible = false;
 
 map_relation = ds_map_create();
 clef_relation = ds_list_create();

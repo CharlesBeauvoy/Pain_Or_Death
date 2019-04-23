@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_pnj_Berlin",
     "eventList": [
-        {
-            "id": "0c38c5ef-de8c-4aa5-a3b6-abedc1bc7237",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "862a7926-8401-4bb4-9605-482e32cef448"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

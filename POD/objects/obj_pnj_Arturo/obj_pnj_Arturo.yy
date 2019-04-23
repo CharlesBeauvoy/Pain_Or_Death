@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_pnj_Arturo",
     "eventList": [
-        {
-            "id": "e29162f9-afd5-45ed-b777-e2cdb3c5187c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "55ef7f9f-19b9-49d9-af63-417b21795af3"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

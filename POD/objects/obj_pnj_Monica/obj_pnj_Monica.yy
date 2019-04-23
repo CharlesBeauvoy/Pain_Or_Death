@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_pnj_Monica",
     "eventList": [
-        {
-            "id": "7b98fdb2-f7a5-4dc5-a0d8-4afb7f564760",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "a53a4fb4-3a67-4478-a2f9-b9ea81a8a442"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
