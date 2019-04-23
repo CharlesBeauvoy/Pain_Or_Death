@@ -1,4 +1,4 @@
-if obj_persistent.pnj_ghosted
+if obj_persistent.pnj_ghosted != self
 {
 	with obj_persistent.pnj_ghosted
 	{
@@ -7,6 +7,11 @@ if obj_persistent.pnj_ghosted
 		ds_list_add(list_relation_sup_text,"");
 		draw_ghost_arrow = false;
 	}
+	obj_persistent.pnj_ghosted = noone;
+}
+else
+{
+	draw_ghost_arrow = false;
 	obj_persistent.pnj_ghosted = noone;
 }
 
