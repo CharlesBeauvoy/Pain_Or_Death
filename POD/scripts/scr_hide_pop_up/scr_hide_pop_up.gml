@@ -1,3 +1,6 @@
+if instance_exists(obj_etiquette_relation)
+	return scr_infos_contexte("CHoisissez un type de relation d'abord");
+
 with obj_pnj_relation_sup
 	draw = false;
 

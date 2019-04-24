@@ -27,7 +27,7 @@ else
 	obj_persistent.pnj_ghosted = noone;
 }
 
-if !obj_persistent.not_clickable and obj_persistent.pnj_selected == self and !obj_persistent.pnj_ghosted
+if instance_exists(obj_pop_up_bg) and !obj_persistent.not_clickable and obj_persistent.pnj_selected == self and !obj_persistent.pnj_ghosted
 {
 	depth -= 100;
 	draw_ghost_arrow = true;
