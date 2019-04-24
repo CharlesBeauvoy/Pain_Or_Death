@@ -27,16 +27,22 @@ if argument1 == true
 	var bouton_pd_ldr = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,obj_bouton_pd_marche_dream.y+50,layer_id,obj_bouton_pd_link_dream);
 	var bouton_pd_etiquette = instance_create_layer(pop_up_bg.x-pop_up_bg.sprite_width/2-sprite_get_width(spr_bouton_panel_droit)/2,obj_bouton_pd_link_dream.y+50,layer_id,obj_bouton_pd_etiquette);
 	
-	/*if ds_stack_size(argument0.list_relation_sup) > 0
+	for(var i=0; i<ds_list_size(argument0.list_relation_sup_obj);i++)
 	{
-		var bouton_sup = instance_create_layer(pop_up_bg.x,pop_up_bg.y+700,layer_id,obj_bouton_link_sup);
-		bouton_sup.depth -= 2;
+		var rel = ds_list_find_value(argument0.list_relation_sup_obj,i);
+		rel.draw = true;
+		rel.color = c_lime;
 	}
-	if ds_stack_size(argument0.list_relation_secret) > 0
+	with obj_meta_pnj
 	{
-		var bouton_secret = instance_create_layer(pop_up_bg.x,pop_up_bg.y+800,layer_id,obj_bouton_link_secret);
-		bouton_secret.depth -= 2;
-	}*/
+		var index = ds_list_find_index(list_relation_sup,argument0.object_index);
+		if index != -1
+		{
+			var rel_sup = ds_list_find_value(list_relation_sup_obj,index);
+			rel_sup.draw = true;
+			rel_sup.color = c_yellow;
+		}
+	}
 	
 	var bouton_marked = instance_create_layer(pop_up_bg.x,pop_up_bg.y+900,layer_id,obj_bouton_marked);
 	bouton_marked.depth -= 2;

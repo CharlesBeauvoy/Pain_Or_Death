@@ -5,6 +5,7 @@ list_relation_text = ds_list_create();
 list_relation_sup = ds_list_create();
 list_relation_weigth_sup = ds_list_create();
 list_relation_sup_text = ds_list_create();
+list_relation_sup_obj = ds_list_create();
 
 map_information_known = ds_map_create();
 ds_map_add(map_information_known,"name","inconnu");

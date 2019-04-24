@@ -80,13 +80,11 @@ else
 					scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est "+relation.pnj_destination_linked.metier);
 				}
 				if relation.type_relation_known and relation.name_relation_known and relation.surname_relation_known and relation.age_relation_known and relation.signe_relation_known and relation.lieu_relation_known and relation.metier_relation_known
-				{
 					relation.pnj_destination_fully_known = true;
+				if relation.pnj_destination_fully_known
 					scr_infos_contexte("Vous savez tout de la relation avec "+relation.pnj_destination_linked_name);
-				}
+		
 			}
-			else if rdm <= real(obj_InputBox.displaytext) and relation.pnj_destination_fully_known
-				scr_infos_contexte("Vous savez tout de la relation avec "+relation.pnj_destination_linked_name);
 		}
 		
 		//X/4% de le tourmenter
