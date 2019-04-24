@@ -41,8 +41,8 @@ draw_line_width(posSX,posSY,posDX,posDY,argument1);
 draw_arrow(posSX,posSY,posDX,posDY,40);
 if argument3 != "" and argument3 != noone
 {
-	var middle_x = (posSX+posDX)/2;
-	var middle_y = (posSY+posDY)/2;
+	middle_x = (posSX+posDX)/2;
+	middle_y = (posSY+posDY)/2;
 	draw_set_font(fnt_bouton_panel_droit)
 	draw_text(middle_x+20,middle_y+20,argument3);
 }

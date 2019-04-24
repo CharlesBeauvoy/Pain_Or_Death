@@ -81,11 +81,10 @@ else
 				}
 				if relation.type_relation_known and relation.name_relation_known and relation.surname_relation_known and relation.age_relation_known and relation.signe_relation_known and relation.lieu_relation_known and relation.metier_relation_known
 					relation.pnj_destination_fully_known = true;
-				if relation.pnj_destination_fully_known
-					scr_infos_contexte("Vous savez tout de la relation avec "+relation.pnj_destination_linked_name);
-		
 			}
 		}
+		if all_pnj_known >= ds_list_size(obj_persistent.pnj_selected.clef_relation)
+			scr_infos_contexte("Vous avez tout découvert de ses relations")
 		
 		//X/4% de le tourmenter
 		var rdm = irandom_range(0,100);
