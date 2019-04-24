@@ -45,3 +45,5 @@ if obj_month.signe.sprite_index == signe.sprite_index// and visited
 map_relation = ds_map_create();
 clef_relation = ds_list_create();
 scr_load_pnj_relation(name, object_index);
+
+number_pnj_know = 0;

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "001809f4-cadb-49a7-aeb3-b0790d46d726",
+            "Value": {
+                "id": "7d279ffe-4aef-4443-a725-b1fd886696d7",
+                "resourcePath": "scripts\\scr_delete_pnj_relation\\scr_delete_pnj_relation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "004a215c-9c90-4958-b06f-fadad6f0311a",
             "Value": {
                 "id": "9c2cccfb-c8eb-4d93-a9f9-505614c01446",
@@ -292,6 +300,14 @@
                 "id": "8bcb2738-be18-4fd8-8418-ee2dc92daf51",
                 "resourcePath": "objects\\obj_bouton_pd_etiquette_age\\obj_bouton_pd_etiquette_age.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1ceee66c-0f33-415d-b03e-badd2bb52f0d",
+            "Value": {
+                "id": "5625021c-adbc-493f-8704-b63cd9ac5b14",
+                "resourcePath": "scripts\\scr_check_pnj_relation\\scr_check_pnj_relation.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2463,6 +2479,8 @@
         "d34b3e0d-81b8-4f3a-84ff-49f1dad419d4",
         "4ba1b931-450f-404c-898a-d8917f03c40b",
         "7d51147b-64dc-4a2e-b40d-5476d613005a",
+        "1ceee66c-0f33-415d-b03e-badd2bb52f0d",
+        "001809f4-cadb-49a7-aeb3-b0790d46d726",
         "c4505ee0-e424-45cd-b661-274a7163e864",
         "319dff20-e241-477e-8df4-3eb4a8cefa4b",
         "76dbd495-33ff-4c8c-a1df-5f359ac61d62",

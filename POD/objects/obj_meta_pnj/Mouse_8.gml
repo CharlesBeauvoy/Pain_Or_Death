@@ -2,7 +2,7 @@ if obj_persistent.pnj_ghosted != self
 {
 	with obj_persistent.pnj_ghosted
 	{
-		if ds_list_find_index(list_relation_sup,other.object_index) != -1
+		if ds_list_find_index(list_relation_sup,other.object_index) != -1 or ds_list_find_index(list_relation,other.object_index) != -1
 			return scr_infos_contexte("Un lien est déjà attribué");
 			
 		ds_list_add(list_relation_sup,other.object_index);

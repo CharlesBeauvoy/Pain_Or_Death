@@ -59,7 +59,7 @@ else
 				{
 					relation.age_relation_known = true;
 					ds_list_add(relation.list_data,relation.pnj_destination_linked.age);
-					scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est agé(e) de "+relation.pnj_destination_linked.age+"ans");
+					scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est agé(e) de "+relation.pnj_destination_linked.age);
 				}
 				else if !relation.signe_relation_known and variable_rdm == "signe_pnj"
 				{
@@ -83,8 +83,6 @@ else
 					relation.pnj_destination_fully_known = true;
 			}
 		}
-		if all_pnj_known >= ds_list_size(obj_persistent.pnj_selected.clef_relation)
-			scr_infos_contexte("Vous avez tout découvert de ses relations")
 		
 		//X/4% de le tourmenter
 		var rdm = irandom_range(0,100);

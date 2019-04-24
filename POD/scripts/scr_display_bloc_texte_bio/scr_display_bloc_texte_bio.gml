@@ -54,4 +54,4 @@ for(var i=0; i< ds_list_size(liste_mot); i++)
 }
 if interlignage <= 0
 	interlignage += 40;
-obj_persistent.pnj_selected.bio_height += interlignage;
+obj_persistent.pnj_selected.bio_height += interlignage+40;

@@ -1,5 +1,7 @@
 with obj_bouton_pd_marche_dream
 {
+	if obj_persistent.pnj_selected.number_pnj_know >= ds_list_size(obj_persistent.pnj_selected.clef_relation)
+		return scr_infos_contexte("Vous avez découvert toutes ses relations")
 	if !clicked
 	{
 		scr_close_bouton();
