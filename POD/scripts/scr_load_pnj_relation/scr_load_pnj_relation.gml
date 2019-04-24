@@ -15,7 +15,8 @@ if !is_undefined(miniMap)
 			var list_relation = ds_map_find_value(miniMap, clef);
 			var tmp = instance_create_depth(argument1.x, argument1.y,0,obj_pnj_relations);
 			tmp.pnj_linked = argument1;
-			tmp.nom_relation = ds_list_find_value(list_relation,0);
+			tmp.pnj_destination_linked_name = clef;
+			tmp.type_relation = ds_list_find_value(list_relation,0);
 			tmp.force_relation = ds_list_find_value(list_relation,1);
 			tmp.bio_relation = ds_list_find_value(list_relation,2);
 			

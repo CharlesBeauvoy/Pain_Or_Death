@@ -16,7 +16,8 @@
         "18128052-3f9e-46bb-9984-f96fc769d2fe",
         "bc2b5c78-4bef-4256-92ec-d03862d77c1a",
         "cf1aaf37-d63a-41ff-bded-2b582b082cba",
-        "7a92d03f-8f4f-4eea-b7ec-0e953d714fc4"
+        "7a92d03f-8f4f-4eea-b7ec-0e953d714fc4",
+        "58bcf5aa-62e7-4628-81df-24d8fa5864ca"
     ],
     "filterType": "GMScript",
     "folderName": "scr_boutons",

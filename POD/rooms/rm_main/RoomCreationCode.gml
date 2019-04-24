@@ -1,0 +1,2 @@
+with obj_pnj_relations
+	pnj_destination_linked = scr_retrieve_pnj_index(pnj_destination_linked_name);

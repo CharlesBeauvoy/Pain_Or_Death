@@ -24,24 +24,70 @@ else
 			return scr_infos_contexte("Vous devez rentrer une valeur entre 1 et 100");
 			
 		//X% de chance d'avoir une info sur un LIEN ou une variable de l'être aimé
-		var rdm_index = irandom_range(0,ds_list_size(obj_persistent.pnj_selected.clef_relation)-1);
-		var rdm_clef = ds_list_find_value(obj_persistent.pnj_selected.clef_relation, rdm_index);
-		var rdm_relation = ds_map_find_value(obj_persistent.pnj_selected.map_relation,rdm_clef);
-		rdm_relation.unknown = false;
-		///----- connaitre la nature ------///
-		if !rdm_relation.nom_relation_known
+		for(var i=0; i<ds_list_size(obj_persistent.pnj_selected.clef_relation);i++)
 		{
-			rdm_relation.nom_relation_known = true;
-			ds_list_add(rdm_relation.list_data,rdm_relation.nom_relation);
-			if !rdm_relation.pnj_relation_known
-				scr_infos_contexte(obj_persistent.pnj_selected.name+" a un relation de type : "+rdm_relation.nom_relation);
-			else if rdm_relation.pnj_relation_known
-				scr_infos_contexte(obj_persistent.pnj_selected.name+" a un relation de type : "+rdm_relation.nom_relation+" avec "+rdm_clef);
+			var rdm = irandom_range(0,100);
+			var clef = ds_list_find_value(obj_persistent.pnj_selected.clef_relation, i);
+			var relation = ds_map_find_value(obj_persistent.pnj_selected.map_relation,clef);
+			if rdm <= real(obj_InputBox.displaytext) and !relation.pnj_destination_fully_known
+			{
+				relation.unknown = false;
+				///----- connaitre la nature ------///
+				var variable_rdm = choose("type_relation","nom_pnj","prenom_pnj","age_pnj","signe_pnj","lieu_pnj","metier_pnj");
+				if !relation.type_relation_known and variable_rdm == "type_relation"
+				{
+					relation.type_relation_known = true;
+					ds_list_add(relation.list_data,relation.type_relation);
+					if !relation.surname_relation_known
+						scr_infos_contexte(obj_persistent.pnj_selected.name+" a un relation de type : "+relation.type_relation);
+					else if relation.surname_relation_known
+						scr_infos_contexte(obj_persistent.pnj_selected.name+" a un relation de type : "+relation.type_relation+" avec "+clef);
+				}
+				else if !relation.name_relation_known and variable_rdm == "nom_pnj"
+				{
+					relation.name_relation_known = true;
+					ds_list_add(relation.list_data,relation.pnj_destination_linked.surname);
+					scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" a pour nom "+relation.pnj_destination_linked.surname);
+				}
+				else if !relation.surname_relation_known and variable_rdm == "prenom_pnj"
+				{
+					relation.surname_relation_known = true;
+					//ds_list_add(relation.list_data,relation.pnj_destination_linked.name);
+					scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" s'appelle "+relation.pnj_destination_linked.name);
+				}
+				else if !relation.age_relation_known and variable_rdm == "age_pnj"
+				{
+					relation.age_relation_known = true;
+					ds_list_add(relation.list_data,relation.pnj_destination_linked.age);
+					scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est agé(e) de "+relation.pnj_destination_linked.age+"ans");
+				}
+				else if !relation.signe_relation_known and variable_rdm == "signe_pnj"
+				{
+					relation.signe_relation_known = true;
+					ds_list_add(relation.list_data,relation.pnj_destination_linked.signe.name);
+					scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est "+relation.pnj_destination_linked.signe.name);
+				}
+				else if !relation.lieu_relation_known and variable_rdm == "lieu_pnj"
+				{
+					relation.lieu_relation_known = true;
+					ds_list_add(relation.list_data,relation.pnj_destination_linked.lieu);
+					scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" vie à/au "+relation.pnj_destination_linked.lieu);
+				}
+				else if !relation.metier_relation_known and variable_rdm == "metier_pnj"
+				{
+					relation.metier_relation_known = true;
+					ds_list_add(relation.list_data,relation.pnj_destination_linked.metier);
+					scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est "+relation.pnj_destination_linked.metier);
+				}
+				if relation.type_relation_known and relation.name_relation_known and relation.surname_relation_known and relation.age_relation_known and relation.signe_relation_known and relation.lieu_relation_known and relation.metier_relation_known
+				{
+					relation.pnj_destination_fully_known = true;
+					scr_infos_contexte("Vous savez tout de la relation avec "+relation.pnj_destination_linked_name);
+				}
+			}
+			else if rdm <= real(obj_InputBox.displaytext) and relation.pnj_destination_fully_known
+				scr_infos_contexte("Vous savez tout de la relation avec "+relation.pnj_destination_linked_name);
 		}
-		
-		
-		if rdm_relation.nom_relation_known and rdm_relation.pnj_relation_known and rdm_relation.force_relation_known
-			rdm_relation.fully_known = true;
 		
 		//X/4% de le tourmenter
 		var rdm = irandom_range(0,100);

@@ -28,7 +28,7 @@ for(var j=0;j<ds_list_size(obj_persistent.pnj_selected.clef_relation);j++)
 	var obj_relation = ds_map_find_value(obj_persistent.pnj_selected.map_relation,clef);
 	if !obj_relation.unknown
 	{
-		if obj_relation.pnj_relation_known
+		if obj_relation.surname_relation_known
 			draw_text(x-sprite_width/2+25,hauteur,clef+" : ");
 		else
 			draw_text(x-sprite_width/2+25,hauteur," ? : ");
