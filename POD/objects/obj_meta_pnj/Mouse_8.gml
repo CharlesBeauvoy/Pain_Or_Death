@@ -10,8 +10,11 @@ if obj_persistent.pnj_ghosted != self
 		tmp.pnj_destination = other
 		tmp.draw = true;
 		ds_list_add(list_relation_sup_obj,tmp);
+		obj_persistent.ghost_arrow_current = tmp;
 		draw_ghost_arrow = false;
 		depth += 100;
+		
+		scr_display_etiquette_relation();
 	}
 	obj_persistent.pnj_ghosted = noone;
 }

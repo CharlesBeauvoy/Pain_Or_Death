@@ -1,5 +1,7 @@
 with obj_bouton_pd_etiquette
 {
+	if instance_exists(obj_etiquette_relation)
+		return scr_infos_contexte("Vous devez d'abord choisir une etiquette");
 	if !clicked
 	{
 		obj_persistent.not_clickable = true;

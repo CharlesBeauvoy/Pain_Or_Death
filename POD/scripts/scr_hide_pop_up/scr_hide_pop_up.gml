@@ -32,3 +32,5 @@ instance_destroy(obj_bouton_pd_listen_dream);
 instance_destroy(obj_bouton_pd_marche_dream);
 instance_destroy(obj_bouton_pd_link_dream);
 instance_destroy(obj_InputBox);
+
+instance_destroy(obj_etiquette_relation);

@@ -1,5 +1,7 @@
 if obj_persistent.button_selected != noone
 	return -1;
+if instance_exists(obj_etiquette_relation)
+	return scr_infos_contexte("Vous devez d'abord choisir une etiquette");
 
 with obj_meta_pnj
 	draw_ghost_arrow = false;
