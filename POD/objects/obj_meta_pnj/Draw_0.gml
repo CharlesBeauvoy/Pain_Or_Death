@@ -20,8 +20,7 @@ if draw_relation_link
 	{
 		var obj = other.object_index; //on cherche self dans les listes de tout les pnj			
 		var index = ds_list_find_index(list_relation,obj); //s'il a ete devoile on affiche la fleche
-		show_debug_message(index)
-		if visited and index != -1
+		if index != -1
 		{
 			line_width = 5 + ds_list_find_value(list_relation_weigth,index);
 			scr_draw_arrow(obj,line_width,self,"");

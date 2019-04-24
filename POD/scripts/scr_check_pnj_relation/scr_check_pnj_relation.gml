@@ -9,7 +9,11 @@ var index = ds_list_find_index(rel_sup.pnj_source.clef_relation, rel_sup.pnj_des
 if index != -1
 {
 	correct_destination = true;
-	scr_infos_contexte(rel_sup.pnj_source.name+" a bien une relation avec "+rel_sup.pnj_destination.name);
+	if rel_sup.pnj_destination.known
+		scr_infos_contexte(rel_sup.pnj_source.name+" a bien une relation avec "+rel_sup.pnj_destination.name);
+	else
+		scr_infos_contexte(rel_sup.pnj_source.name+" a bien une relation avec cette personne");
+	
 	var rel = ds_map_find_value(rel_sup.pnj_source.map_relation,rel_sup.pnj_destination.name);
 	if rel.type_relation == rel_sup.type
 	{
@@ -30,11 +34,8 @@ if index != -1
 		scr_hide_pop_up();
 		scr_display_pop_up(obj_persistent.pnj_selected,true);
 	}
-	///change sentence with the biothing
 }
 else
 	scr_infos_contexte(rel_sup.pnj_source.name+" n'a pas de relation avec "+rel_sup.pnj_destination.name)
 
 ///on verifie ensuite si le pnj a bien une ou plusieurs relations de ce type
-
-///si les deux sont bons on ajoute la relation au vrai rel + delete des ghost arrow

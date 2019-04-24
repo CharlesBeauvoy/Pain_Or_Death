@@ -18,6 +18,8 @@ if !clicked
 	scr_set_pnj_bio(obj_persistent.pnj_selected.map_information_known,key, value);
 	if key == "signe"
 		obj_persistent.pnj_selected.signe.visible = true;	
+	if key == "name"
+		obj_persistent.pnj_selected.known = true;
 	obj_persistent.pnj_selected.info_known += 1;
 	scr_gain_day(1);
 	if obj_persistent.pnj_selected.info_known >= ds_list_size(obj_persistent.list_key_pnj)
