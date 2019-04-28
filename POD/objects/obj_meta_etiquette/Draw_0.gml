@@ -6,5 +6,5 @@ if pnj_linked != noone
 if self.object_index == obj_etiquette_relation
 {
 	draw_self();
-	scr_draw_center_object(font,color,texte,1,1,0);
+	scr_draw_center_object(font,color,texte,image_xscale,image_yscale,0);
 }

@@ -43,6 +43,8 @@ if argument3 != "" and argument3 != noone
 {
 	middle_x = (posSX+posDX)/2;
 	middle_y = (posSY+posDY)/2;
-	draw_set_font(fnt_bouton_panel_droit)
-	draw_text(middle_x+20,middle_y+20,argument3);
+	draw_set_font(fnt_bouton_panel_droit);
+	var xscale = camera_get_view_width(view_camera[0]) / 1920;
+	var yscale = camera_get_view_height(view_camera[0]) / 1080;
+	draw_text_transformed(middle_x+20,middle_y+20,argument3,xscale, yscale,0);
 }
