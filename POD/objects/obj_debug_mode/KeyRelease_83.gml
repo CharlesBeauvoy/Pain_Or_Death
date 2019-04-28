@@ -1,3 +1,3 @@
 /// @description del sang
 if instance_exists(obj_jauge_sang)
-	obj_jauge_sang.value_current -= 5;
+	scr_loss_sang(5);

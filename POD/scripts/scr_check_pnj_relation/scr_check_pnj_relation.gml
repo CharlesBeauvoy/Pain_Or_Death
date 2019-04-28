@@ -3,7 +3,7 @@
 var rel_sup = argument0;
 
 var correct_destination = false;
-var correction_destination_type = false;
+
 ///on verifie d'abord si le pnj destination est bon
 var index = ds_list_find_index(rel_sup.pnj_source.clef_relation, rel_sup.pnj_destination.name);
 if index != -1
@@ -36,6 +36,12 @@ if index != -1
 	}
 }
 else
-	scr_infos_contexte(rel_sup.pnj_source.name+" n'a pas de relation avec "+rel_sup.pnj_destination.name)
+{
+	scr_infos_contexte("Ces PNJ n'ont pas de relation");
+	/*var nom_pnj_source_known = scr_check_pnj_bio(rel_sup.pnj_source, "name");
+	var nom_pnj_dest_known = scr_check_pnj_relation(rel_sup.pnj_destination,"name");
+	if scr_check_pnj_bio(rel_sup.pnj_source, "name") != -1 and scr_check_pnj_bio(rel_sup.pnj_destination, "name") != -1
+		scr_infos_contexte(rel_sup.pnj_source.name+" n'a pas de relation avec "+rel_sup.pnj_destination.name);*/
+}
 
 ///on verifie ensuite si le pnj a bien une ou plusieurs relations de ce type

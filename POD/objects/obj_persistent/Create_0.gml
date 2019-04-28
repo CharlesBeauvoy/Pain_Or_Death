@@ -38,4 +38,4 @@ ds_list_add(list_key_pnj,"name","surname","age","metier","signe","lieu");
 list_name_key_pnj = ds_list_create();
 ds_list_add(list_name_key_pnj,"Prénom","Nom","Âge","Métier","Zodiac","Lieu");
 list_name_relation_pnj = ds_list_create();
-ds_list_add(list_name_relation_pnj,"Amour","Famille","Hiérarchie");
+ds_list_add(list_name_relation_pnj,"Amour","Famille","Hierarchie","Ami");

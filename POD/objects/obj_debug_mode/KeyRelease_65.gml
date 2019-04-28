@@ -1,3 +1,3 @@
 /// @description add souffrance
 if instance_exists(obj_jauge_souffrance)
-	obj_jauge_souffrance.value_current += 5;
+	scr_gain_souffrance(5);

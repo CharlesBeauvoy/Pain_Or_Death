@@ -21,7 +21,7 @@ if is_a_pnj_marked == false // si aucun pnj n'a ete selectionne
 obj_persistent.pnj_marked = noone;
 	
 instance_destroy(obj_pop_up_lp_done);
-instance_destroy(self);
+//instance_destroy(self);
 
 /*scr_hide_pop_up();
 
