@@ -6,9 +6,9 @@ var halfheight = y//camera_get_view_y(view_camera[0])+obj_persistent.gui_height/
 scr_inputbox_init(halfwidth-50,halfheight-20,halfwidth+50,halfheight+20,4,4,292,fnt_text,false,fnt_text,"*","",false,20);
 
 keyboard_string = text;
-		selected = true;
-		if (vbarinterval > -1)
-		{
-			vbar = "|";
-			alarm[0] = vbarinterval;
-		}
+selected = true;
+if (vbarinterval > -1)
+{
+	vbar = "|";
+	alarm[0] = vbarinterval;
+}
