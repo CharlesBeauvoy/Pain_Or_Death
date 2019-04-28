@@ -27,6 +27,7 @@ camera_view_port_height = 1080;
 
 gui_width = 1920;
 gui_height = 1080;
+coef_proportion = gui_height/gui_width;
 
 camera_view_port_x = 0;
 camera_view_port_y = 0;

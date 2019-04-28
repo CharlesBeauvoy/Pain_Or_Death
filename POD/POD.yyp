@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "2d5a3cfe-6014-4c3f-9631-6da6fd347ba6",
+            "Value": {
+                "id": "69c217dc-ac4b-4311-bdea-e0742dc372bd",
+                "resourcePath": "sprites\\spr_border_room\\spr_border_room.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ec04b4d-34f3-492a-8555-423bc02eec9e",
             "Value": {
                 "id": "5b78d1b5-60ef-45a0-9cdf-c068396434e3",
