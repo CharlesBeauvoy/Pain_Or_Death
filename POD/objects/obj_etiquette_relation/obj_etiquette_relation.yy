@@ -5,13 +5,13 @@
     "name": "obj_etiquette_relation",
     "eventList": [
         {
-            "id": "e1d3d6a1-9af2-4187-89f1-8e875250fde6",
+            "id": "b6653854-ee0f-4aff-9d6a-9f3c0680ae29",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
+            "enumb": 56,
+            "eventtype": 6,
             "m_owner": "cb3dd64e-ce59-4dfe-917f-28972d1fc2cf"
         }
     ],

@@ -1,4 +1,4 @@
-if mouse_x >= middle_x-10 and mouse_x <= middle_x+string_width(type)+10 and mouse_y >= middle_y-10 and mouse_y <= middle_y+string_height(type)+10
+if !instance_exists(obj_etiquette_relation) and mouse_x >= middle_x-10 and mouse_x <= middle_x+string_width(type)+10 and mouse_y >= middle_y-10 and mouse_y <= middle_y+string_height(type)+10
 {
 	if  mouse_check_button_released(mb_left) and (!instance_exists(obj_bouton_pd_link_dream) or !obj_bouton_pd_link_dream.clicked)
 	{
