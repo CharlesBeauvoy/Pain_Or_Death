@@ -1,8 +1,10 @@
-destX = mouse_x;
-destY = mouse_y;
-
-if device_mouse_x_to_gui(0) < 200 or device_mouse_x_to_gui(0) > 1700 or device_mouse_y_to_gui(0) < 200 or device_mouse_y_to_gui(0) > 800
-	delta = 7;
-else
-	delta = 4;
-move_towards_point(destX, destY, delta);
+if mouse_wheel_down() and zoom>zoom_min
+{
+	zoom -= 0.1;
+	event_user(0);	
+}
+else if mouse_wheel_up() and zoom<zoom_max
+{
+	zoom += 0.1;
+	event_user(0);
+}

@@ -74,5 +74,31 @@
 			"1",
 			"Arthuro est son poto"
 	 ]
+	},
+"Test":{
+	 "texte_initial":"Il est un test 1",
+	 "Denver":[
+			"Hierarchie",
+			"2",
+			"Denver est son boss"
+	 ],
+	 "Test2":[
+			"Famille",
+			"3",
+			"Test2 est son frère"
+	 ]
+	},
+"Test2":{
+	 "texte_initial":"Il est un test 2",
+	 "Arthuro":[
+			"Hierarchie",
+			"2",
+			"Arthuro est son boss"
+	 ],
+	 "Test":[
+			"Famille",
+			"3",
+			"Test2 est son frère"
+	 ]
 	}
 }
