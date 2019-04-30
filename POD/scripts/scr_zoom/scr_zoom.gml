@@ -1,4 +1,4 @@
-/*var amount = 1+argument0;
+var amount = 1+argument0;
 
 var zoom_width = camera_get_view_width(view_camera[0]);
 var zoom_height = camera_get_view_height(view_camera[0]);
