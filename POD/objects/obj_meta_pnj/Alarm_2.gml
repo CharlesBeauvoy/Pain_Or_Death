@@ -14,4 +14,5 @@ else
 {
 	instance_destroy(signe);
 	instance_destroy(self);
+	obj_persistent.is_pnj_dying = false;
 }

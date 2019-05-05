@@ -19,8 +19,7 @@ if reveal == 0
 	reveal = 1;
 	with obj_meta_pnj
 	{
-		ds_map_replace(map_information_known,"name",name);
-		info_known += 1;
+		scr_set_pnj_bio(map_information_known,"name",name,self);
 		signe.visible = true;
 		for(var i=0; i<ds_list_size(clef_relation);i++)
 		{

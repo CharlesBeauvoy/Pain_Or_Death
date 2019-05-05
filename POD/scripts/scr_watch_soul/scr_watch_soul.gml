@@ -9,7 +9,7 @@ var rdm_value = ds_map_find_value(argument0.map_information_known,rdm_key);
 if rdm_value == "inconnu"
 {
 	var val = variable_instance_get(argument0,rdm_key);
-	scr_set_pnj_bio(argument0.map_information_known,rdm_key, val);
+	scr_set_pnj_bio(argument0.map_information_known,rdm_key, val,argument0);
 	if rdm_key == "signe"
 		argument0.signe.visible = true;
 }
@@ -22,9 +22,7 @@ else
 			rdm_key = ds_map_find_first(self.map_information_known);
 	}
 	var val = variable_instance_get(argument0,rdm_key);
-	scr_set_pnj_bio(argument0.map_information_known,rdm_key, val);
+	scr_set_pnj_bio(argument0.map_information_known,rdm_key, val,argument0);
 	if rdm_key == "signe"
 		argument0.signe.visible = true;
 }
-
-argument0.info_known += 1;

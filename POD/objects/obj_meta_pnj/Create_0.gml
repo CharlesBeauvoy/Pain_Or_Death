@@ -41,6 +41,8 @@ if obj_month.signe.sprite_index == signe.sprite_index// and visited
 	signe.visible = true;
 	signe.image_blend = c_red;
 }
+if signe.sprite_index == ds_list_find_value(obj_month.sign_sprite_list,0)
+	scr_set_pnj_bio(map_information_known,"signe",signe.name,self);
 
 map_relation = ds_map_create();
 clef_relation = ds_list_create();

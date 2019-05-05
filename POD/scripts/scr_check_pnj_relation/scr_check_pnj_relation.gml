@@ -29,10 +29,7 @@ if index != -1
 		rel.pnj_linked.number_pnj_know += 1;
 		
 		if ds_map_find_value(obj_persistent.pnj_selected.map_information_known,"name") == "inconnu"
-		{
-			scr_set_pnj_bio(obj_persistent.pnj_selected.map_information_known,"name", obj_persistent.pnj_selected.name);
-			obj_persistent.pnj_selected.info_known += 1;
-		}
+			scr_set_pnj_bio(obj_persistent.pnj_selected.map_information_known,"name", obj_persistent.pnj_selected.name,obj_persistent.pnj_selected);
 		
 		scr_hide_pop_up();
 		scr_display_pop_up(obj_persistent.pnj_selected,true);
