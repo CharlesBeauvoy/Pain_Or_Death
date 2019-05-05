@@ -13,7 +13,7 @@ ds_map_add(map_information_known,"surname","inconnu");
 ds_map_add(map_information_known,"signe","inconnu");
 ds_map_add(map_information_known,"age","inconnu");
 ds_map_add(map_information_known,"metier","inconnu");
-ds_map_add(map_information_known,"lieu","inconnu");
+ds_map_add(map_information_known,"lieu",lieu);
 
 list_etiquette = ds_list_create();
 
@@ -31,7 +31,7 @@ bio_height = 0;
 
 watch_soul_count = 1;
 watch_soul_count_base = 1;
-info_known = 0;
+info_known = 1;
 listen_dream_count = 30;
 
 signe = instance_create_layer(x,y,"Instances_selection_pnj",signe);

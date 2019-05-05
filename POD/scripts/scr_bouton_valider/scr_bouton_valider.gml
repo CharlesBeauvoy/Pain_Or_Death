@@ -22,7 +22,7 @@ else
 	{
 		if obj_InputBox.displaytext == "" or real(obj_InputBox.displaytext) > 100 or real(obj_InputBox.displaytext) <= 0
 			return scr_infos_contexte("Vous devez rentrer une valeur entre 1 et 100");
-			
+		scr_loss_sang(real(obj_InputBox.displaytext));	
 		//X% de chance d'avoir une info sur un LIEN ou une variable de l'être aimé
 		for(var i=0; i<ds_list_size(obj_persistent.pnj_selected.clef_relation);i++)
 		{

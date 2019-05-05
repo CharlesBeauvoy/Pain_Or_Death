@@ -4,5 +4,5 @@ clicked = false;
 
 list_meta_etiquette = ds_list_create();
 ds_list_add(list_meta_etiquette, obj_bouton_pd_etiquette_sexe, obj_bouton_pd_etiquette_age,
-obj_bouton_pd_etiquette_metier, obj_bouton_pd_etiquette_lieu);
+obj_bouton_pd_etiquette_metier);
 

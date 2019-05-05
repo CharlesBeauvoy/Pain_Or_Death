@@ -551,14 +551,6 @@
             }
         },
         {
-            "Key": "34c42c8d-e48e-4c1d-8694-be54051dbc68",
-            "Value": {
-                "id": "6af614fd-0ed0-491e-a612-e8c263ca889c",
-                "resourcePath": "objects\\obj_etiquette_lieu_2\\obj_etiquette_lieu_2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "35684b38-b65a-4294-9794-a26784472223",
             "Value": {
                 "id": "92f6e417-0828-473b-929a-e4ced87f29f9",
@@ -748,14 +740,6 @@
                 "id": "7e411b05-b898-4e0b-a228-02727f4e226d",
                 "resourcePath": "scripts\\scr_bouton_listen_dream\\scr_bouton_listen_dream.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "4f1f81ea-0ef7-4ca1-adb8-33d200d58829",
-            "Value": {
-                "id": "3c452606-e22d-40ee-b913-e7ed96acbdf0",
-                "resourcePath": "objects\\obj_bouton_pd_etiquette_lieu\\obj_bouton_pd_etiquette_lieu.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -971,14 +955,6 @@
             "Value": {
                 "id": "0f28aef3-d95a-40ca-a14d-30c4f9d6f410",
                 "resourcePath": "objects\\obj_signe_cancer\\obj_signe_cancer.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6180de73-b834-4306-b3e7-7a11f06d270a",
-            "Value": {
-                "id": "72f5c63d-9b22-4507-8c78-0b498df2ac12",
-                "resourcePath": "objects\\obj_etiquette_lieu_1\\obj_etiquette_lieu_1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1716,14 +1692,6 @@
                 "id": "c7473355-b4a6-4922-9cc1-dbc5f94d076f",
                 "resourcePath": "objects\\obj_signe_verseau\\obj_signe_verseau.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b5503233-31d7-4622-8ba2-e23f68b58d40",
-            "Value": {
-                "id": "c9e912e0-1d1b-452e-8bd4-e53d2542cea9",
-                "resourcePath": "views\\b5503233-31d7-4622-8ba2-e23f68b58d40.yy",
-                "resourceType": "GMFolder"
             }
         },
         {

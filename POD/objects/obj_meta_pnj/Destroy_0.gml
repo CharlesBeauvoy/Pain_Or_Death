@@ -1,16 +1,13 @@
 //scr_gain_sang(gain_sang);
-
-for(var i=0; i<ds_list_size(list_relation);i++)
+var souffrance = 0;
+for(var i=0; i<ds_list_size(clef_relation);i++)
 {
-	if instance_exists(ds_list_find_value(list_relation,i))
-	{
-		var weigth = ds_list_find_value(list_relation_weigth,i);
-		scr_gain_souffrance(weigth*5);
-	}
+	var clef = ds_list_find_value(clef_relation,i);
+	var value = ds_map_find_value(map_relation,clef)
+	if instance_exists(value.pnj_linked)
+		souffrance += value.force_relation;
 }
-
-obj_jauge_sang.value_thresold = obj_jauge_sang.value_max - obj_jauge_souffrance.value_current;
-obj_jauge_sang.value_current = obj_jauge_sang.value_thresold;
+scr_gain_souffrance(souffrance*5);
 
 if self == obj_persistent.pnj_selected
 {
@@ -44,3 +41,5 @@ for(var i=0; i < ds_map_size(map_relation); i++)
 }
 ds_map_destroy(map_relation);
 ds_list_destroy(list_relation);
+obj_jauge_sang.value_thresold = obj_jauge_sang.value_max - obj_jauge_souffrance.value_current;
+obj_jauge_sang.value_current = obj_jauge_sang.value_thresold;

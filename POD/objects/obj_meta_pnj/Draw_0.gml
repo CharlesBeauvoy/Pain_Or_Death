@@ -38,3 +38,19 @@ if visited or known or ds_map_find_value(map_information_known,"name") != "incon
 	scr_draw_center_object(fnt_debug_mode,c_white,name,image_xscale,image_yscale,0);
 if marked
 	scr_draw_center_object(fnt_marked,c_red,"X",1,1,0);
+
+var souffrance = 0;
+for(var i=0; i<ds_list_size(clef_relation);i++)
+{
+	var clef = ds_list_find_value(clef_relation,i);
+	var value = ds_map_find_value(map_relation,clef)
+	if instance_exists(value.pnj_linked)
+		souffrance += value.force_relation;
+}
+draw_set_color(c_white);
+draw_set_font(fnt_debug_mode)
+draw_set_valign(fa_top)
+draw_set_halign(fa_center)
+draw_text(x,y+sprite_height/2,souffrance*5);
+draw_set_valign(false)
+draw_set_halign(false)

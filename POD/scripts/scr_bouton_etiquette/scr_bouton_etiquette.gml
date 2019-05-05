@@ -4,7 +4,7 @@ with obj_bouton_pd_etiquette
 		return scr_infos_contexte("Vous devez d'abord choisir une etiquette");
 	if !clicked
 	{
-		obj_persistent.not_clickable = true;
+		//obj_persistent.not_clickable = true;
 		color = c_black;
 		image_blend = c_white;
 		var margin = y+50;
@@ -20,7 +20,7 @@ with obj_bouton_pd_etiquette
 	}
 	else
 	{
-		obj_persistent.not_clickable = false;
+		//obj_persistent.not_clickable = false;
 		color = c_white;
 		image_blend = c_black;
 		instance_destroy(obj_meta_titre_etiquette);
