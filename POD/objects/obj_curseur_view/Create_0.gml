@@ -11,3 +11,6 @@ prev_view_y = 0;
 window_max_w = 1920;
 window_max_h = 1080;
 zoom_speed = 50;
+
+mouse_xstart = 0;
+mouse_ystart = 0;
