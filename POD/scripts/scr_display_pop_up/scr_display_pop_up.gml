@@ -46,10 +46,7 @@ if argument1 == true
 	
 	var bouton_marked = instance_create_layer(pop_up_bg.x,pop_up_bg.y+900,layer_id,obj_bouton_marked);
 	bouton_marked.depth -= 2;
-		
-	obj_persistent.pnj_selected.bio_height = 0;
-	for(var i =0; i< ds_list_size(argument0.list_relation_text);i++)
-		scr_display_bloc_texte_bio(ds_list_find_value(argument0.list_relation_text,i));
+	scr_display_bloc_texte_bio(argument0);
 }/*
 else if argument1 == false
 {

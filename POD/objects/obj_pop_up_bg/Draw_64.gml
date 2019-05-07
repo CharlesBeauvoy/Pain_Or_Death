@@ -35,12 +35,6 @@ for(var j=0;j<ds_list_size(obj_persistent.pnj_selected.clef_relation);j++)
 			else
 				draw_text(x-sprite_width/2+25,hauteur," ? : ");
 			hauteur += string_height(clef);
-	
-		/*if obj_relation.fully_known
-		{
-			draw_text(x,hauteur,obj_relation.sentence);
-			hauteur += string_height(obj_relation.sentence);
-		}*/
 		
 			var tmp_texte = "";
 			for(var i=0; i<ds_list_size(obj_relation.list_data);i++)

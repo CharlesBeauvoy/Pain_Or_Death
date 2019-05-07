@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "7479a3f2-84bf-4e85-91bc-b4085677b17c",
+            "Value": {
+                "id": "06bc7473-b8ee-4d88-ac12-0431c68f34d5",
+                "resourcePath": "scripts\\scr_add_pnj_relation\\scr_add_pnj_relation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "74d91790-a366-4bcd-b288-66b5027874e6",
             "Value": {
                 "id": "178fdefa-dff6-459a-84e6-c2505828fb4e",
@@ -2490,6 +2498,7 @@
         "7d51147b-64dc-4a2e-b40d-5476d613005a",
         "1ceee66c-0f33-415d-b03e-badd2bb52f0d",
         "001809f4-cadb-49a7-aeb3-b0790d46d726",
+        "7479a3f2-84bf-4e85-91bc-b4085677b17c",
         "c4505ee0-e424-45cd-b661-274a7163e864",
         "319dff20-e241-477e-8df4-3eb4a8cefa4b",
         "76dbd495-33ff-4c8c-a1df-5f359ac61d62",

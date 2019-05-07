@@ -84,7 +84,15 @@ else
 						scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est "+relation.pnj_destination_linked.metier);
 					}
 					if relation.type_relation_known and relation.name_relation_known and relation.surname_relation_known and relation.age_relation_known and relation.signe_relation_known and relation.lieu_relation_known and relation.metier_relation_known
+					{
 						relation.pnj_destination_fully_known = true;
+						scr_add_pnj_relation(obj_persistent.pnj_selected,relation);
+						obj_persistent.pnj_selected.draw_relation_link = true;
+						ds_list_clear(relation.list_data);
+						relation.unknown = true;
+						instance_destroy(obj_meta_bloc_text_bio);
+						scr_display_bloc_texte_bio(obj_persistent.pnj_selected);
+					}
 				}
 			}
 		}
