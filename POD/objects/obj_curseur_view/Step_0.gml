@@ -1,6 +1,7 @@
 // in Step
+
 var mw = mouse_wheel_up() - mouse_wheel_down();
-if (mw < 0 and 1920*zoom*sqrt(1.1) < room_width) or (mw > 0 and 1920*zoom/sqrt(1.1) > 1920)
+if (mw < 0 and 1920*zoom*sqrt(1.1) <= room_width) or (mw > 0 and 1920*zoom/sqrt(1.1) > 1920)
 {
 	var mx = mouse_x, my = mouse_y;
 	var cx = (mx - camera_get_view_x(view_camera[0])) / zoom;
@@ -18,6 +19,7 @@ if (mw < 0 and 1920*zoom*sqrt(1.1) < room_width) or (mw > 0 and 1920*zoom/sqrt(1
 
 if mouse_check_button_pressed(mb_left) and instance_place(x,y,all) == noone
 {
+	mouse_clear(mb_middle)
 	mouse_xstart = window_views_mouse_get_x();
 	mouse_ystart = window_views_mouse_get_y();
 }
