@@ -18,9 +18,10 @@ if index != -1
 	if rel.type_relation == rel_sup.type
 	{
 		scr_infos_contexte("Ce lien est bien de type "+rel.type_relation);
-		ds_list_add(rel.pnj_linked.list_relation,rel_sup.pnj_destination.object_index);
+		/*ds_list_add(rel.pnj_linked.list_relation,rel_sup.pnj_destination.object_index);
 		ds_list_add(rel.pnj_linked.list_relation_text,rel.bio_relation);
-		ds_list_add(rel.pnj_linked.list_relation_weigth,rel.force_relation);
+		ds_list_add(rel.pnj_linked.list_relation_weigth,rel.force_relation);*/
+		scr_add_pnj_relation(rel.pnj_linked,rel,true);
 		rel.fully_known = true;
 		rel_sup.pnj_destination.known = true;
 		scr_delete_pnj_relation(rel_sup);

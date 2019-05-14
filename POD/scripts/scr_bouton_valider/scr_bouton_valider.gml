@@ -42,7 +42,7 @@ else
 					{
 						relation.unknown = false;
 						relation.type_relation_known = true;
-						ds_list_add(relation.list_data,relation.type_relation);
+						ds_list_replace(relation.list_data,6,relation.type_relation);
 						if !relation.surname_relation_known
 							scr_infos_contexte(obj_persistent.pnj_selected.name+" a un relation de type : "+relation.type_relation);
 						else if relation.surname_relation_known
@@ -52,7 +52,7 @@ else
 					{
 						relation.unknown = false;
 						relation.name_relation_known = true;
-						ds_list_add(relation.list_data,relation.pnj_destination_linked.surname);
+						ds_list_replace(relation.list_data,1,relation.pnj_destination_linked.surname);
 						scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" a pour nom "+relation.pnj_destination_linked.surname);
 					}
 					else if !relation.surname_relation_known and variable_rdm == "prenom_pnj" and rdm <= real(obj_InputBox.displaytext)
@@ -65,38 +65,41 @@ else
 					{
 						relation.unknown = false;
 						relation.age_relation_known = true;
-						ds_list_add(relation.list_data,relation.pnj_destination_linked.age);
+						ds_list_replace(relation.list_data,2,relation.pnj_destination_linked.age);
 						scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est agé(e) de "+relation.pnj_destination_linked.age);
 					}
 					else if !relation.signe_relation_known and variable_rdm == "signe_pnj" and rdm <= real(obj_InputBox.displaytext)
 					{
 						relation.unknown = false;
 						relation.signe_relation_known = true;
-						ds_list_add(relation.list_data,relation.pnj_destination_linked.signe.name);
+						ds_list_replace(relation.list_data,3,relation.pnj_destination_linked.signe.name);
 						scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est "+relation.pnj_destination_linked.signe.name);
 					}
 					else if !relation.lieu_relation_known and variable_rdm == "lieu_pnj" and rdm <= real(obj_InputBox.displaytext)
 					{
 						relation.unknown = false;
 						relation.lieu_relation_known = true;
-						ds_list_add(relation.list_data,relation.pnj_destination_linked.lieu);
+						ds_list_replace(relation.list_data,5,relation.pnj_destination_linked.lieu);
 						scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" vie à/au "+relation.pnj_destination_linked.lieu);
 					}
 					else if !relation.metier_relation_known and variable_rdm == "metier_pnj" and rdm <= real(obj_InputBox.displaytext)
 					{
 						relation.metier_relation_known = true;
-						ds_list_add(relation.list_data,relation.pnj_destination_linked.metier);
+						ds_list_replace(relation.list_data,4,relation.pnj_destination_linked.metier);
 						scr_infos_contexte("Une relation de "+obj_persistent.pnj_selected.name+" est "+relation.pnj_destination_linked.metier);
 					}
 					if !relation.pnj_destination_fully_known and relation.type_relation_known and relation.name_relation_known and relation.surname_relation_known and relation.age_relation_known and relation.signe_relation_known and relation.lieu_relation_known and relation.metier_relation_known
 					{
 						relation.pnj_destination_fully_known = true;
-						scr_add_pnj_relation(obj_persistent.pnj_selected,relation);
+						var rel_valide = scr_validate_pnj_relation(relation);
+						if rel_valide
+							scr_add_pnj_relation(obj_persistent.pnj_selected,relation,true);
+						else
+							scr_add_pnj_relation(obj_persistent.pnj_selected,relation,false);
 						obj_persistent.pnj_selected.draw_relation_link = true;
-						ds_list_clear(relation.list_data);
+						//ds_list_clear(relation.list_data);
 						relation.unknown = true;
 						instance_destroy(obj_meta_bloc_text_bio);
-						show_message("bb")
 						scr_display_bloc_texte_bio(obj_persistent.pnj_selected);
 					}
 				}

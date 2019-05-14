@@ -6,7 +6,8 @@ if draw_relation_link
 		for(var i=0; i< ds_list_size(list_relation);i++)
 		{
 			var tmp = ds_list_find_value(list_relation,i);
-			if instance_exists(tmp)
+			var linked_visible = ds_list_find_value(list_relation_linked_visible,i);
+			if instance_exists(tmp) and linked_visible
 			{
 				line_width = 5 + ds_list_find_value(list_relation_weigth,i);
 				if tmp == obj_persistent.pnj_hovered
@@ -20,7 +21,8 @@ if draw_relation_link
 	{
 		var obj = other.object_index; //on cherche self dans les listes de tout les pnj			
 		var index = ds_list_find_index(list_relation,obj); //s'il a ete devoile on affiche la fleche
-		if index != -1
+		var linked_visible = ds_list_find_value(list_relation_linked_visible,i);
+		if index != -1 and linked_visible
 		{
 			line_width = 5 + ds_list_find_value(list_relation_weigth,index);
 			scr_draw_arrow(obj,line_width,self,"");

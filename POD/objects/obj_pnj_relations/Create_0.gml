@@ -23,4 +23,4 @@ fully_known = false; //pour quand on connaitra tout pour eviter des tests
 unknown = true; //totalement inconnu all var a fausse
 
 list_data = ds_list_create(); // quand on ne connait pas encore tout
-sentence = "?"; // quand on connait tout
+ds_list_add(list_data,"","","","","","","","");

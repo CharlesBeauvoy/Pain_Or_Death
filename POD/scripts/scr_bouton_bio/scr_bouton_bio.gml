@@ -1,9 +1,8 @@
 if obj_persistent.pnj_selected.info_known >= ds_list_size(obj_persistent.list_key_pnj)
 {
-	instance_destroy(obj_bouton_bio);
-	obj_bouton_pd_watch_soul.clicked = false;
-	obj_bouton_pd_watch_soul.image_blend = c_black;
-	obj_bouton_pd_watch_soul.color = c_white;
+	scr_bouton_watch_soul();
+	window_set_cursor(cr_default);
+	obj_persistent.button_selected = noone;
 	
 	return scr_infos_contexte("Toute l'âme de "+obj_persistent.pnj_selected.name+" est découverte");
 }
@@ -23,10 +22,9 @@ if !clicked
 	scr_gain_day(1);
 	if obj_persistent.pnj_selected.info_known >= ds_list_size(obj_persistent.list_key_pnj)
 	{
-		instance_destroy(obj_bouton_bio);
-		obj_bouton_pd_watch_soul.clicked = false;
-		obj_bouton_pd_watch_soul.image_blend = c_black;
-		obj_bouton_pd_watch_soul.color = c_white;
+		scr_bouton_watch_soul();
+		window_set_cursor(cr_default);
+		obj_persistent.button_selected = noone;
 	
 		return scr_infos_contexte("Toute l'âme de "+obj_persistent.pnj_selected.name+" est découverte");
 	}

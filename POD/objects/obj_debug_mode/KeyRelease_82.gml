@@ -28,7 +28,7 @@ if reveal == 0
 			var clef = ds_list_find_value(clef_relation, i);
 			var value = ds_map_find_value(map_relation,clef);
 			if ds_list_find_index(list_relation, value.pnj_destination_linked.object_index) < 0
-				scr_add_pnj_relation(self,value);
+				scr_add_pnj_relation(self,value,true);
 		}
 	}
 }
